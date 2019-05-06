@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITEA_First_Project", "ITEA_First_Project\ITEA_First_Project.csproj", "{5CBD1BD2-F5FE-47E7-ABBC-FE6A7BDBE6CD}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Folder1", "Folder1", "{56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}"
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTypes", "DataTypes", "{56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}"
+>>>>>>> b31d4bf... I`ve done First, Second and Third tasks from Data Base Page from site;
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Folder2", "Folder2", "{71FBBC4E-D303-4D0C-A23F-0704AC31792C}"
 EndProject
@@ -13,6 +17,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{4518CA85-A757-4427-8DF1-734F2808DD9A}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes_FirstProgect", "DataTypes_FirstProgetc\DataTypes_FirstProgect.csproj", "{A68B4A00-812E-4F17-9E49-BDE99E4F1F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataType_SecondProject", "DataType_SecondProject\DataType_SecondProject.csproj", "{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes_ThirdProject", "DataTypes_ThirdProject\DataTypes_ThirdProject.csproj", "{7914D0D3-6D7D-41A2-A777-7762EE33FC01}"
+EndProject
+>>>>>>> b31d4bf... I`ve done First, Second and Third tasks from Data Base Page from site;
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +44,21 @@ Global
 		{4518CA85-A757-4427-8DF1-734F2808DD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4518CA85-A757-4427-8DF1-734F2808DD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4518CA85-A757-4427-8DF1-734F2808DD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{A68B4A00-812E-4F17-9E49-BDE99E4F1F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68B4A00-812E-4F17-9E49-BDE99E4F1F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68B4A00-812E-4F17-9E49-BDE99E4F1F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68B4A00-812E-4F17-9E49-BDE99E4F1F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7914D0D3-6D7D-41A2-A777-7762EE33FC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7914D0D3-6D7D-41A2-A777-7762EE33FC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7914D0D3-6D7D-41A2-A777-7762EE33FC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7914D0D3-6D7D-41A2-A777-7762EE33FC01}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> b31d4bf... I`ve done First, Second and Third tasks from Data Base Page from site;
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +66,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{745F9FAC-69A7-432A-A0A0-B3133859E5F6} = {56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}
 		{4518CA85-A757-4427-8DF1-734F2808DD9A} = {56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}
+<<<<<<< HEAD
+=======
+		{A68B4A00-812E-4F17-9E49-BDE99E4F1F07} = {56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}
+		{16B81982-9A9A-4DF8-85F9-82F0EAE4BB9E} = {56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}
+		{7914D0D3-6D7D-41A2-A777-7762EE33FC01} = {56CD83D3-E2FD-4CCD-8DCA-09F1E75EBA28}
+>>>>>>> b31d4bf... I`ve done First, Second and Third tasks from Data Base Page from site;
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F2F8E2C-CD25-43E3-8467-C98DC4AEDFDE}
