@@ -14,9 +14,10 @@ namespace Lesson2_Task1
             Console.ReadKey();
 
 
+
             string ourText = File.ReadAllText("C:\\Users\\Bogda\\Documents\\ITEA\\OurText.txt");
             int countWordsFromTXT = ourText.Split().Length;
-            Console.WriteLine($"Count from .txt: {countWordsFromTXT}");
+            Console.WriteLine($"Count from .txt file: {countWordsFromTXT}");
             Console.ReadKey();
 
         }
