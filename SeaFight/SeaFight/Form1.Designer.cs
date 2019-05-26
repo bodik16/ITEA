@@ -477,10 +477,10 @@
             this.checkBoxY = new System.Windows.Forms.CheckBox();
             this.label243 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
             this.label244 = new System.Windows.Forms.Label();
             this.OKButton = new System.Windows.Forms.Button();
+            this.Locations = new System.Windows.Forms.ListBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.panel2.SuspendLayout();
             this.E9.SuspendLayout();
             this.F9.SuspendLayout();
@@ -683,7 +683,6 @@
             this.panel200.SuspendLayout();
             this.panel201.SuspendLayout();
             this.panel202.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -5616,7 +5615,7 @@
             // label241
             // 
             this.label241.AutoSize = true;
-            this.label241.BackColor = System.Drawing.Color.Gray;
+            this.label241.BackColor = System.Drawing.Color.DarkOrange;
             this.label241.Font = new System.Drawing.Font("Snap ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label241.Location = new System.Drawing.Point(161, 387);
             this.label241.Name = "label241";
@@ -5627,11 +5626,12 @@
             // label242
             // 
             this.label242.AutoSize = true;
-            this.label242.BackColor = System.Drawing.Color.Gray;
+            this.label242.BackColor = System.Drawing.Color.DarkOrange;
+            this.label242.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label242.Font = new System.Drawing.Font("Snap ITC", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label242.Location = new System.Drawing.Point(514, 387);
             this.label242.Name = "label242";
-            this.label242.Size = new System.Drawing.Size(196, 36);
+            this.label242.Size = new System.Drawing.Size(198, 38);
             this.label242.TabIndex = 43;
             this.label242.Text = "Your Shots";
             // 
@@ -5680,7 +5680,7 @@
             this.label243.AutoSize = true;
             this.label243.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label243.Font = new System.Drawing.Font("Ravie", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label243.Location = new System.Drawing.Point(236, 460);
+            this.label243.Location = new System.Drawing.Point(245, 438);
             this.label243.Name = "label243";
             this.label243.Size = new System.Drawing.Size(290, 38);
             this.label243.TabIndex = 48;
@@ -5698,62 +5698,19 @@
             "2",
             "3",
             "4"});
-            this.listBox1.Location = new System.Drawing.Point(304, 499);
+            this.listBox1.Location = new System.Drawing.Point(330, 479);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(131, 61);
             this.listBox1.TabIndex = 49;
             this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.ListBox1_SelectedIndexChanged);
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.numericUpDown1.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(597, 520);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.ReadOnly = true;
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 25);
-            this.numericUpDown1.TabIndex = 50;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Visible = false;
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.domainUpDown1.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.domainUpDown1.Items.Add("A");
-            this.domainUpDown1.Items.Add("B");
-            this.domainUpDown1.Items.Add("C");
-            this.domainUpDown1.Items.Add("D");
-            this.domainUpDown1.Items.Add("E");
-            this.domainUpDown1.Items.Add("F");
-            this.domainUpDown1.Items.Add("G");
-            this.domainUpDown1.Items.Add("H");
-            this.domainUpDown1.Items.Add("I");
-            this.domainUpDown1.Items.Add("J");
-            this.domainUpDown1.Location = new System.Drawing.Point(597, 488);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.ReadOnly = true;
-            this.domainUpDown1.Size = new System.Drawing.Size(120, 25);
-            this.domainUpDown1.TabIndex = 51;
-            this.domainUpDown1.Text = "A";
-            this.domainUpDown1.Visible = false;
-            // 
             // label244
             // 
             this.label244.AutoSize = true;
             this.label244.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label244.Font = new System.Drawing.Font("Ravie", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label244.Location = new System.Drawing.Point(590, 447);
+            this.label244.Location = new System.Drawing.Point(570, 438);
             this.label244.Name = "label244";
             this.label244.Size = new System.Drawing.Size(129, 38);
             this.label244.TabIndex = 52;
@@ -5764,7 +5721,7 @@
             // 
             this.OKButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.OKButton.Font = new System.Drawing.Font("Ravie", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OKButton.Location = new System.Drawing.Point(703, 567);
+            this.OKButton.Location = new System.Drawing.Point(708, 567);
             this.OKButton.Name = "OKButton";
             this.OKButton.Size = new System.Drawing.Size(117, 61);
             this.OKButton.TabIndex = 53;
@@ -5772,15 +5729,135 @@
             this.OKButton.UseVisualStyleBackColor = false;
             this.OKButton.Click += new System.EventHandler(this.OKButton_Click);
             // 
+            // Locations
+            // 
+            this.Locations.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Locations.FormattingEnabled = true;
+            this.Locations.ItemHeight = 19;
+            this.Locations.Items.AddRange(new object[] {
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8",
+            "B9",
+            "B10",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9",
+            "C10",
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8",
+            "D9",
+            "D10",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8",
+            "E9",
+            "E10",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8",
+            "F9",
+            "F10",
+            "G1",
+            "G2",
+            "G3",
+            "G4",
+            "G5",
+            "G6",
+            "G7",
+            "G8",
+            "G9",
+            "G10",
+            "H1",
+            "H2",
+            "H3",
+            "H4",
+            "H5",
+            "H6",
+            "H7",
+            "H8",
+            "H9",
+            "H10",
+            "I1",
+            "I2",
+            "I3",
+            "I4",
+            "I5",
+            "I6",
+            "I7",
+            "I8",
+            "I9",
+            "I10",
+            "J1",
+            "J2",
+            "J3",
+            "J4",
+            "J5",
+            "J6",
+            "J7",
+            "J8",
+            "J9",
+            "J10"});
+            this.Locations.Location = new System.Drawing.Point(577, 479);
+            this.Locations.Name = "Locations";
+            this.Locations.Size = new System.Drawing.Size(120, 80);
+            this.Locations.TabIndex = 54;
+            this.Locations.Visible = false;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(1295, 1063);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 89);
+            this.checkedListBox1.TabIndex = 55;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 640);
+            this.ClientSize = new System.Drawing.Size(831, 633);
+            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.Locations);
             this.Controls.Add(this.OKButton);
             this.Controls.Add(this.label244);
-            this.Controls.Add(this.domainUpDown1);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label243);
             this.Controls.Add(this.checkBoxY);
@@ -5831,7 +5908,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = " ";
             this.panel2.ResumeLayout(false);
             this.E9.ResumeLayout(false);
             this.E9.PerformLayout();
@@ -6234,7 +6311,6 @@
             this.panel201.PerformLayout();
             this.panel202.ResumeLayout(false);
             this.panel202.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -6691,10 +6767,10 @@
         private System.Windows.Forms.CheckBox checkBoxY;
         private System.Windows.Forms.Label label243;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DomainUpDown domainUpDown1;
         private System.Windows.Forms.Label label244;
         private System.Windows.Forms.Button OKButton;
+        private System.Windows.Forms.ListBox Locations;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 

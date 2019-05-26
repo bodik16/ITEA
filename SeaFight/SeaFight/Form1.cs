@@ -1595,7 +1595,7 @@ namespace SeaFight
 
         private void Panel41_MouseMove(object sender, MouseEventArgs e)
         {
-            panel41.BackColor = Color.LightGray;
+           // panel41.BackColor = Color.LightGray;
         }
 
         private void Panel41_MouseLeave(object sender, EventArgs e)
@@ -1611,7 +1611,6 @@ namespace SeaFight
 
         private void Panel1_MouseClick(object sender, MouseEventArgs e)
         {
-            MessageBox.Show("DDDDD");
         }
 
         private void CheckBoxX_CheckedChanged(object sender, EventArgs e)
@@ -1681,20 +1680,165 @@ namespace SeaFight
 
         private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(listBox1.Visible == true)
+            if (listBox1.Visible == true)
             {
                 label244.Visible = true;
-                numericUpDown1.Visible = true;
-                domainUpDown1.Visible = true;
+
+                Locations.Visible = true;
             }
             else if (listBox1.Visible == false)
             {
                 label244.Visible = false;
-                numericUpDown1.Visible = false;
-                domainUpDown1.Visible = false;
+
+                Locations.Visible = false;
+            }
+            if (checkBoxX.Checked == true)
+            {
+                if (listBox1.Text == "4")
+                {
+                    for (int j = 0; j < Board.MyShips.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyShips[j]);
+
+                        int k = 1;
+                        for (int i = 0; i < Locations.Items.Count; i++)
+                        {
+                            if (Convert.ToString(Locations.Items[i]).Contains("H" + $"{Convert.ToString(k)}"))
+                            {
+                                Locations.Items.Remove("H" + $"{Convert.ToString(k)}");
+                                --i;
+                                ++k;
+                                //k = k+2;
+                            }
+                        }
+                    }
+                    int q = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+
+                        if (Convert.ToString(Locations.Items[i]).Contains("I" + $"{Convert.ToString(q)}"))
+                        {
+                            Locations.Items.RemoveAt(i);
+                            --i;
+                            ++q;
+                        }
+                    }
+                    int y = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+
+                        if (Convert.ToString(Locations.Items[i]).Contains("J" + $"{Convert.ToString(y)}"))
+                        {
+                            Locations.Items.RemoveAt(i);
+                            --i;
+                            y++;
+                        }
+                    }
+                }
+                else if (listBox1.Text == "3")
+                {
+                    int q = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+
+                        if (Convert.ToString(Locations.Items[i]).Contains("I" + $"{Convert.ToString(q)}"))
+                        {
+                            Locations.Items.RemoveAt(i);
+                            --i;
+                            ++q;
+                        }
+                    }
+                    int y = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+
+                        if (Convert.ToString(Locations.Items[i]).Contains("J" + $"{Convert.ToString(y)}"))
+                        {
+                            Locations.Items.RemoveAt(i);
+                            --i;
+                            y++;
+                        }
+                    }
+                }
+                else if (listBox1.Text == "2")
+                {
+                    int y = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+
+                        if (Convert.ToString(Locations.Items[i]).Contains("J" + $"{Convert.ToString(y)}"))
+                        {
+                            Locations.Items.RemoveAt(i);
+                            --i;
+                            y++;
+                        }
+                    }
+                }
+            }
+            else if (checkBoxY.Checked == true)
+            {
+                List<string> Q = new List<string> { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
+                if (listBox1.Text == "4")
+                {
+                    
+                    int k = 1;
+                    int t = 0;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+                        if (Convert.ToString(Locations.Items[i]).Contains($"{Q[t]}" + $"{Convert.ToString(8)}"))
+                        {
+
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(8)}");
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(9)}");
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(10)}");
+                            ++t;
+                        }
+
+                    }
+                }
+                else if (listBox1.Text == "3")
+                {
+                    int t = 0;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+                        if (Convert.ToString(Locations.Items[i]).Contains($"{Q[t]}" + $"{Convert.ToString(9)}"))
+                        {
+                           
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(9)}");
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(10)}");
+                            //int ind = Locations.Items.IndexOf($"{Q[t]}" + $"{Convert.ToString(10)}");
+                            ////Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(8)}");
+                            //Locations.Items.Insert(i, $"{Q[t]}" + $"{Convert.ToString(8)}");
+                            //--i;
+                            ++t;
+                        }
+
+                    }
+                }
+
+                else if (listBox1.Text == "2")
+                {
+                    int t = 0;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+                        if (Convert.ToString(Locations.Items[i]).Contains($"{Q[t]}" + $"{Convert.ToString(10)}"))
+                        {
+                            //Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(8)}");
+                            //Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(9)}");
+                            Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(10)}");
+                            ++t;
+                        }
+
+                    }
+                }
+
+
             }
         }
-
+        int count2 = 1;
+        int count3 = 1;
+        //int count4 = 0;
+        int count1 = 1;
         private void OKButton_Click(object sender, EventArgs e)
         {
             checkBoxX.Visible = false;
@@ -1702,15 +1846,71 @@ namespace SeaFight
             listBox1.Visible = false;
             label243.Visible = false;
             label244.Visible = false;
-            domainUpDown1.Visible = false;
-            numericUpDown1.Visible = false;
-            if(listBox1.Text == "1")
+            Locations.Visible = false;
+           
+           
+            
+
+            if (listBox1.SelectedItem == "1")
             {
-                SingleShip singleShip = new SingleShip(Convert.ToChar(domainUpDown1.Text), Convert.ToInt32(numericUpDown1.Value));
-                //domainUpDown1.Text + numericUpDown1;
+                
+                if (count1 <= 3)
+                {
+                    SingleShip singleShip = new SingleShip(Locations.Text);
+
+                    //domainUpDown1.Text + numericUpDown1;
+                    Board.MyShips.Add(singleShip);
+                    count1 = count1 + 1;
+                }
+                else if(count1 >= 3)
+                {
+                    listBox1.Items.Remove("1");
+
+                }
+            }
+            else if(listBox1.Text == "2")
+            {
+                if (count2 <= 2)
+                {
+                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
+                    Board.MyShips.Add(twiceShip);
+                    count2++;
+                }
+                else
+                {
+                    listBox1.Items.Remove("2");
+                }
+            }
+            else if (listBox1.Text == "3")
+            {
+                if (count3 <=1)
+                {
+                    ++count3; ;
+                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
+                    Board.MyShips.Add(twiceShip);
+                }
+                else if(count3 >1)
+                {
+                    listBox1.Items.Remove("3");
+
+                }
+
+
+            }
+            else if (listBox1.SelectedItem == "4")
+            {
+                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
+                    Board.MyShips.Add(twiceShip);
+                    listBox1.Items.Remove("4");
+                    //Locations.Items.Remove("A1");
+                
             }
 
+        }
+        private static void DoRight()
+        {
 
         }
     }
+   
 }

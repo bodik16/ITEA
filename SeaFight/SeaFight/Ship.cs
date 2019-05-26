@@ -10,12 +10,10 @@ namespace SeaFight
     {
         protected bool isReady;
         protected int length;
-        protected int numberOfLocation;
-        protected char letterOfLocation;
+        protected string location;
         public bool IsReady { get => isReady; set => isReady = value; }
         public int Length { get => length; set => length = value; }
-        public int NumberOfLocation { get => numberOfLocation; set => numberOfLocation = value; }
-        public char LetterOfLocation { get => letterOfLocation; set => letterOfLocation = value; }
+        public string Location { get => location; set => location = value; }
         public abstract void Dead();
         public abstract void Damage();
 
@@ -24,12 +22,13 @@ namespace SeaFight
     class SingleShip :Ship
     {
         private const int L = 1;
-        public SingleShip(char location, int Loc)
+        public SingleShip(string Loc)
         {
             IsReady = true;
             Length = L;
-            LetterOfLocation = location;
-            NumberOfLocation = Loc;
+            Location = Loc;
+
+
         }
 
         public override void Damage()
@@ -49,10 +48,11 @@ namespace SeaFight
     class TwiceShip : Ship
     {
         private const int L = 2;
-        public TwiceShip()
+        public TwiceShip(string Loc)
         {
             IsReady = true;
             Length = L;
+            Location = Loc;
         }
         public override void Dead()
         {
@@ -77,10 +77,11 @@ namespace SeaFight
     class TripleShip:Ship
     {
         private const int L = 3;
-        public TripleShip()
+        public TripleShip(string Loc)
         {
             IsReady = true;
             Length = L;
+            Location = Loc;
         }
         public override void Damage()
         {
@@ -105,10 +106,11 @@ namespace SeaFight
     class QuadShip: Ship
     {
         private const int L = 4;
-        public QuadShip()
+        public QuadShip(string Loc)
         {
             IsReady = true;
             Length = L;
+            Location = Loc;
         }
         public override void Dead()
         {

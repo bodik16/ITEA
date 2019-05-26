@@ -25,7 +25,7 @@ namespace Lesson2_Task3
                         }
                         else
                         {
-                            from[i] = alphavit[j - 3];
+                            from[i] = alphavit[j -3];
                         }
 
 
