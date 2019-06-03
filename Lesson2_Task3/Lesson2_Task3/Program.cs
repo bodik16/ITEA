@@ -69,7 +69,7 @@ namespace Lesson2_Task3
         {
 
             char[] alph = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-            string ourWord = "HELLO, MY DEAR FRIEND";
+            string ourWord = "EBIIL, JV ABVO COFBKA";
             char[] Arr = ourWord.ToCharArray();
             Caesar_Cipher.Caesar(Arr,alph);
             Console.WriteLine(Arr);

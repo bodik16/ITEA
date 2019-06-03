@@ -520,11 +520,11 @@ namespace SeaFight
         }
         private void Panel1_MouseMove(object sender, MouseEventArgs e)
         {
-            A1.BackColor = Color.LightGray;
+            //A1.BackColor = Color.LightGray;
         }
         private void Panel1_MouseLeave(object sender, EventArgs e)
         {
-            A1.BackColor = Color.LightYellow;
+            //A1.BackColor = Color.LightYellow;
         }
 
         private void Panel3_MouseMove(object sender, MouseEventArgs e)
@@ -541,7 +541,6 @@ namespace SeaFight
         private void Panel4_MouseMove(object sender, MouseEventArgs e)
         {
             C1.BackColor = Color.LightGray;
-
         }
 
         private void Panel4_MouseLeave(object sender, EventArgs e)
@@ -553,7 +552,6 @@ namespace SeaFight
         private void Panel5_MouseMove(object sender, MouseEventArgs e)
         {
             D1.BackColor = Color.LightGray;
-
         }
 
         private void Panel5_MouseLeave(object sender, EventArgs e)
@@ -1595,7 +1593,7 @@ namespace SeaFight
 
         private void Panel41_MouseMove(object sender, MouseEventArgs e)
         {
-           // panel41.BackColor = Color.LightGray;
+            // panel41.BackColor = Color.LightGray;
         }
 
         private void Panel41_MouseLeave(object sender, EventArgs e)
@@ -1611,24 +1609,43 @@ namespace SeaFight
 
         private void Panel1_MouseClick(object sender, MouseEventArgs e)
         {
+            if (Board.SingleShips.Count.Equals(0))
+            {
+                LiveText.Text = "I`ve not added any ships";
+            }
+            else
+            {
+                for (int i = 0; i < Board.SingleShips.Count; i++)
+                {
+                    if (Board.SingleShips[i].Location == "A1")
+                    {
+                        Board.SingleShips[i].Damage();
+                        A1.BackColor = Color.Red;
+                        LiveText.Text = $"Good Shot Killed Ship: {Board.SingleShips[i].ToString()}";
+                    }
+                    else
+                    {
+                        LiveText.Text = "You Miss";
+                    }
+                }
+            }
+
         }
 
         private void CheckBoxX_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBoxX.Checked == true)
+            if (checkBoxX.Checked == true)
             {
                 checkBoxY.Visible = false;
                 listBox1.Visible = true;
                 label243.Visible = true;
 
             }
-            else if(checkBoxX.Checked == false)
+            else if (checkBoxX.Checked == false)
             {
                 checkBoxY.Visible = true;
                 listBox1.Visible = false;
                 label243.Visible = false;
-
-
             }
 
         }
@@ -1656,15 +1673,16 @@ namespace SeaFight
         int co = 1;
         private void FillButton_Click(object sender, EventArgs e)
         {
-            if (co <= 10)
+            if (Board.MyShips.Count<11)
             {
-                co++;
                 checkBoxX.Visible = true;
                 checkBoxY.Visible = true;
             }
             else
             {
                 MessageBox.Show("Max count of Ships could be 10");
+                FillButton.Enabled = false;
+                OKButton.Enabled = false;
             }
         }
 
@@ -1694,23 +1712,23 @@ namespace SeaFight
             }
             if (checkBoxX.Checked == true)
             {
-                if (listBox1.Text == "4")
+                if (listBox1.SelectedItem == "4")
                 {
-                    for (int j = 0; j < Board.MyShips.Count; j++)
-                    {
-                        Locations.Items.Add(Board.MyShips[j]);
+                    //for (int j = 0; j < Board.MyShips.Count; j++)
+                    //{
+                    //Locations.Items.Add(Board.MyShips[j]);
 
-                        int k = 1;
-                        for (int i = 0; i < Locations.Items.Count; i++)
+                    int k = 1;
+                    for (int i = 0; i < Locations.Items.Count; i++)
+                    {
+                        if (Convert.ToString(Locations.Items[i]).Contains("H" + $"{Convert.ToString(k)}"))
                         {
-                            if (Convert.ToString(Locations.Items[i]).Contains("H" + $"{Convert.ToString(k)}"))
-                            {
-                                Locations.Items.Remove("H" + $"{Convert.ToString(k)}");
-                                --i;
-                                ++k;
-                                //k = k+2;
-                            }
+                            Locations.Items.Remove("H" + $"{Convert.ToString(k)}");
+                            --i;
+                            ++k;
+                            //k = k+2;
                         }
+                        //}
                     }
                     int q = 1;
                     for (int i = 0; i < Locations.Items.Count; i++)
@@ -1735,8 +1753,14 @@ namespace SeaFight
                         }
                     }
                 }
-                else if (listBox1.Text == "3")
+                else if (listBox1.SelectedItem == "3")
                 {
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
                     int q = 1;
                     for (int i = 0; i < Locations.Items.Count; i++)
                     {
@@ -1759,9 +1783,16 @@ namespace SeaFight
                             y++;
                         }
                     }
+
                 }
-                else if (listBox1.Text == "2")
+                else if (listBox1.SelectedItem == "2")
                 {
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
                     int y = 1;
                     for (int i = 0; i < Locations.Items.Count; i++)
                     {
@@ -1772,15 +1803,30 @@ namespace SeaFight
                             --i;
                             y++;
                         }
+                    }
+                }
+                else if (listBox1.SelectedItem == "1")
+                {
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
                     }
                 }
             }
             else if (checkBoxY.Checked == true)
             {
+
                 List<string> Q = new List<string> { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
-                if (listBox1.Text == "4")
+                if (listBox1.SelectedItem == "4")
                 {
-                    
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
                     int k = 1;
                     int t = 0;
                     for (int i = 0; i < Locations.Items.Count; i++)
@@ -1796,121 +1842,890 @@ namespace SeaFight
 
                     }
                 }
-                else if (listBox1.Text == "3")
+                else if (listBox1.SelectedItem == "3")
                 {
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
+
                     int t = 0;
                     for (int i = 0; i < Locations.Items.Count; i++)
                     {
                         if (Convert.ToString(Locations.Items[i]).Contains($"{Q[t]}" + $"{Convert.ToString(9)}"))
                         {
-                           
+
                             Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(9)}");
                             Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(10)}");
-                            //int ind = Locations.Items.IndexOf($"{Q[t]}" + $"{Convert.ToString(10)}");
-                            ////Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(8)}");
-                            //Locations.Items.Insert(i, $"{Q[t]}" + $"{Convert.ToString(8)}");
-                            //--i;
                             ++t;
                         }
 
                     }
                 }
 
-                else if (listBox1.Text == "2")
+                else if (listBox1.SelectedItem == "2")
                 {
+                    Locations.Items.Clear();
+
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
                     int t = 0;
                     for (int i = 0; i < Locations.Items.Count; i++)
                     {
                         if (Convert.ToString(Locations.Items[i]).Contains($"{Q[t]}" + $"{Convert.ToString(10)}"))
                         {
-                            //Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(8)}");
-                            //Locations.Items.Add($"{Q[t]}" + $"{Convert.ToString(9)}");
                             Locations.Items.Remove($"{Q[t]}" + $"{Convert.ToString(10)}");
                             ++t;
                         }
 
                     }
                 }
+                else if (listBox1.SelectedItem == "1")
+                {
+                    Locations.Items.Clear();
 
+                    for (int j = 0; j < Board.MyPlaces.Count; j++)
+                    {
+                        Locations.Items.Add(Board.MyPlaces[j]);
+                    }
+                }
 
             }
         }
         int count2 = 1;
         int count3 = 1;
         //int count4 = 0;
-        int count1 = 1;
+        int count1 = 0;
+        private void ChangeColor(Panel panel, Color color)
+        {
+            panel.BackColor = color;
+        }
+        List<Panel> Panels = new List<Panel>();
+        List<Panel> OpponentsPanels = new List<Panel>();
+
+        private void AddPanels()
+        {
+
+            Panels.Add(A1);
+            Panels.Add(A2);
+            Panels.Add(A3);
+            Panels.Add(A4);
+            Panels.Add(A5);
+            Panels.Add(A6);
+            Panels.Add(A7);
+            Panels.Add(A8);
+            Panels.Add(A9);
+            Panels.Add(A10);
+            Panels.Add(B1);
+            Panels.Add(B2);
+            Panels.Add(B3);
+            Panels.Add(B4);
+            Panels.Add(B5);
+            Panels.Add(B6);
+            Panels.Add(B7);
+            Panels.Add(B8);
+            Panels.Add(B9);
+            Panels.Add(B10);
+            Panels.Add(C1);
+            Panels.Add(C2);
+            Panels.Add(C3);
+            Panels.Add(C4);
+            Panels.Add(C5);
+            Panels.Add(C6);
+            Panels.Add(C7);
+            Panels.Add(C8);
+            Panels.Add(C9);
+            Panels.Add(C10);
+            Panels.Add(D1);
+            Panels.Add(D2);
+            Panels.Add(D3);
+            Panels.Add(D4);
+            Panels.Add(D5);
+            Panels.Add(D6);
+            Panels.Add(D7);
+            Panels.Add(D8);
+            Panels.Add(D9);
+            Panels.Add(D10);
+            Panels.Add(E1);
+            Panels.Add(E2);
+            Panels.Add(E3);
+            Panels.Add(E4);
+            Panels.Add(E5);
+            Panels.Add(E6);
+            Panels.Add(E7);
+            Panels.Add(E8);
+            Panels.Add(E9);
+            Panels.Add(E10);
+            Panels.Add(F1);
+            Panels.Add(F2);
+            Panels.Add(F3);
+            Panels.Add(F4);
+            Panels.Add(F5);
+            Panels.Add(F6);
+            Panels.Add(F7);
+            Panels.Add(F8);
+            Panels.Add(F9);
+            Panels.Add(F10);
+            Panels.Add(G1);
+            Panels.Add(G2);
+            Panels.Add(G3);
+            Panels.Add(G4);
+            Panels.Add(G5);
+            Panels.Add(G6);
+            Panels.Add(G7);
+            Panels.Add(G8);
+            Panels.Add(G9);
+            Panels.Add(G10);
+            Panels.Add(H1);
+            Panels.Add(H2);
+            Panels.Add(H3);
+            Panels.Add(H4);
+            Panels.Add(H5);
+            Panels.Add(H6);
+            Panels.Add(H7);
+            Panels.Add(H8);
+            Panels.Add(H9);
+            Panels.Add(H10);
+            Panels.Add(I1);
+            Panels.Add(I2);
+            Panels.Add(I3);
+            Panels.Add(I4);
+            Panels.Add(I5);
+            Panels.Add(I6);
+            Panels.Add(I7);
+            Panels.Add(I8);
+            Panels.Add(I9);
+            Panels.Add(I10);
+            Panels.Add(J1);
+            Panels.Add(J2);
+            Panels.Add(J3);
+            Panels.Add(J4);
+            Panels.Add(J5);
+            Panels.Add(J6);
+            Panels.Add(J7);
+            Panels.Add(J8);
+            Panels.Add(J9);
+            Panels.Add(J10);
+        }
+        private void AddOpponentsPanels()
+        {
+
+            OpponentsPanels.Add(A11);
+            OpponentsPanels.Add(A12);
+            OpponentsPanels.Add(A13);
+            OpponentsPanels.Add(A14);
+            OpponentsPanels.Add(A15);
+            OpponentsPanels.Add(A16);
+            OpponentsPanels.Add(A17);
+            OpponentsPanels.Add(A18);
+            OpponentsPanels.Add(A19);
+            OpponentsPanels.Add(A20);
+            OpponentsPanels.Add(B11);
+            OpponentsPanels.Add(B12);
+            OpponentsPanels.Add(B13);
+            OpponentsPanels.Add(B14);
+            OpponentsPanels.Add(B15);
+            OpponentsPanels.Add(B16);
+            OpponentsPanels.Add(B17);
+            OpponentsPanels.Add(B18);
+            OpponentsPanels.Add(B19);
+            OpponentsPanels.Add(B20);
+            OpponentsPanels.Add(C11);
+            OpponentsPanels.Add(C12);
+            OpponentsPanels.Add(C13);
+            OpponentsPanels.Add(C14);
+            OpponentsPanels.Add(C15);
+            OpponentsPanels.Add(C16);
+            OpponentsPanels.Add(C17);
+            OpponentsPanels.Add(C18);
+            OpponentsPanels.Add(C19);
+            OpponentsPanels.Add(C20);
+            OpponentsPanels.Add(D11);
+            OpponentsPanels.Add(D12);
+            OpponentsPanels.Add(D13);
+            OpponentsPanels.Add(D14);
+            OpponentsPanels.Add(D15);
+            OpponentsPanels.Add(D16);
+            OpponentsPanels.Add(D17);
+            OpponentsPanels.Add(D18);
+            OpponentsPanels.Add(D19);
+            OpponentsPanels.Add(D20);
+            OpponentsPanels.Add(E11);
+            OpponentsPanels.Add(E12);
+            OpponentsPanels.Add(E13);
+            OpponentsPanels.Add(E14);
+            OpponentsPanels.Add(E15);
+            OpponentsPanels.Add(E16);
+            OpponentsPanels.Add(E17);
+            OpponentsPanels.Add(E18);
+            OpponentsPanels.Add(E19);
+            OpponentsPanels.Add(E20);
+            OpponentsPanels.Add(F11);
+            OpponentsPanels.Add(F12);
+            OpponentsPanels.Add(F13);
+            OpponentsPanels.Add(F14);
+            OpponentsPanels.Add(F15);
+            OpponentsPanels.Add(F16);
+            OpponentsPanels.Add(F17);
+            OpponentsPanels.Add(F18);
+            OpponentsPanels.Add(F19);
+            OpponentsPanels.Add(F20);
+            OpponentsPanels.Add(G11);
+            OpponentsPanels.Add(G12);
+            OpponentsPanels.Add(G13);
+            OpponentsPanels.Add(G14);
+            OpponentsPanels.Add(G15);
+            OpponentsPanels.Add(G16);
+            OpponentsPanels.Add(G17);
+            OpponentsPanels.Add(G18);
+            OpponentsPanels.Add(G19);
+            OpponentsPanels.Add(G20);
+            OpponentsPanels.Add(H11);
+            OpponentsPanels.Add(H12);
+            OpponentsPanels.Add(H13);
+            OpponentsPanels.Add(H14);
+            OpponentsPanels.Add(H15);
+            OpponentsPanels.Add(H16);
+            OpponentsPanels.Add(H17);
+            OpponentsPanels.Add(H18);
+            OpponentsPanels.Add(H19);
+            OpponentsPanels.Add(H20);
+            OpponentsPanels.Add(I11);
+            OpponentsPanels.Add(I12);
+            OpponentsPanels.Add(I13);
+            OpponentsPanels.Add(I14);
+            OpponentsPanels.Add(I15);
+            OpponentsPanels.Add(I16);
+            OpponentsPanels.Add(I17);
+            OpponentsPanels.Add(I18);
+            OpponentsPanels.Add(I19);
+            OpponentsPanels.Add(I20);
+            OpponentsPanels.Add(J11);
+            OpponentsPanels.Add(J12);
+            OpponentsPanels.Add(J13);
+            OpponentsPanels.Add(J14);
+            OpponentsPanels.Add(J15);
+            OpponentsPanels.Add(J16);
+            OpponentsPanels.Add(J17);
+            OpponentsPanels.Add(J18);
+            OpponentsPanels.Add(J19);
+            OpponentsPanels.Add(J20);
+        }
         private void OKButton_Click(object sender, EventArgs e)
         {
-            checkBoxX.Visible = false;
-            checkBoxY.Visible = false;
-            listBox1.Visible = false;
-            label243.Visible = false;
-            label244.Visible = false;
-            Locations.Visible = false;
-           
-           
-            
-
-            if (listBox1.SelectedItem == "1")
+            if (Board.SingleShips.Count ==4)
             {
-                
-                if (count1 <= 3)
-                {
-                    SingleShip singleShip = new SingleShip(Locations.Text);
-
-                    //domainUpDown1.Text + numericUpDown1;
-                    Board.MyShips.Add(singleShip);
-                    count1 = count1 + 1;
-                }
-                else if(count1 >= 3)
-                {
-                    listBox1.Items.Remove("1");
-
-                }
+                //MessageBox.Show("Last Single ship was Added");
+                listBox1.Items.Remove("1");
             }
-            else if(listBox1.Text == "2")
+          
+            if (Board.TwiceShips.Count >= 3)
             {
-                if (count2 <= 2)
+                //MessageBox.Show("Last Twice ship was Added");
+                listBox1.Items.Remove("2");
+            }
+            if (Board.TripleShips.Count >= 2)
+            {
+                //MessageBox.Show("Last Triple ship was Added");
+                listBox1.Items.Remove("3");
+            }
+            if (Board.QuadShips.Count >= 1)
+            {
+                //MessageBox.Show("Last Quad ship was Added");
+                listBox1.Items.Remove("4");
+            }
+            checkBoxX.Visible = false;
+                checkBoxY.Visible = false;
+                listBox1.Visible = false;
+                label243.Visible = false;
+                label244.Visible = false;
+                Locations.Visible = false;
+                AddPanels();
+                if (Board.MyShips.Count >= 10)
                 {
-                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
-                    Board.MyShips.Add(twiceShip);
-                    count2++;
+                    MessageBox.Show("You can`t have more than 10 ships");
                 }
                 else
                 {
-                    listBox1.Items.Remove("2");
-                }
-            }
-            else if (listBox1.Text == "3")
-            {
-                if (count3 <=1)
-                {
-                    ++count3; ;
-                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
-                    Board.MyShips.Add(twiceShip);
-                }
-                else if(count3 >1)
-                {
-                    listBox1.Items.Remove("3");
+                    if (checkBoxX.Checked == true)
+                    {
+                        if (listBox1.SelectedItem == "1")
+                        {
+
+                            string str = Locations.Text;
+                            SingleShip singleShip = new SingleShip(str);
+                            singleShip.type = typeOfShip.Single;
+                            Board.SingleShips.Add(singleShip);
+                            Board.MyShips.Add(singleShip);
+                            DrawShips(singleShip);
+                            //for (int a = 0; a < Board.Letterts.Count; a++)
+                            //{
+                            //    char[] q = new char[2];
+                            //    q = str.ToCharArray();
+                            //    if (Board.Letterts[a] == Convert.ToString(q[0]))
+                            //    {
+                            //        string W;
+                            //        W = Board.Letterts[a + 1] + q[1];
+                            //        for (int y = 0; y < Board.MyPlaces.Count; y++)
+                            //        {
+                            //            if (Board.MyPlaces[y] == str)
+                            //            {
+                            //                string qwe = Board.MyPlaces[y + 1];
+                            //                Board.MyPlaces.Remove(qwe);
+                            //            }
+
+                            //            if (Board.MyPlaces[y] == W)
+                            //            {
+                            //                string srt = Board.MyPlaces[y + 1];
+                            //                Board.MyPlaces.Remove(srt);
+                            //            }
+                            //        }
+                            //        Board.MyPlaces.Remove(str);
+                            //        Board.MyPlaces.Remove(W); 
+                            //    }
+
+                            //}
+
+
+                        }
+                        else if (listBox1.Text == "2")
+                        {
+                            TwiceShip twiceShip = new TwiceShip();
+                            twiceShip.type = typeOfShip.Twice;
+                            Board.TwiceShips.Add(twiceShip);
+                            Board.MyShips.Add(twiceShip);
+                            for (int i = 0; i < Board.Letterts.Count; i++)
+                            {
+                                string str = Locations.Text;
+                                char[] q = new char[2];
+                                q = str.ToCharArray();
+                                if (Board.Letterts[i] == Convert.ToString(q[0]))
+                                {
+                                    string W;
+                                    W = Board.Letterts[i + 1] + q[1];
+                                    twiceShip.Loca[0] = str;
+                                    twiceShip.Loca[1] = W;
+                                    DrawShips(twiceShip);
+                                }
+                            }
+
+                        }
+                        else if (listBox1.Text == "3")
+                        {
+                            TripleShip tripleShiptrip = new TripleShip();
+                            tripleShiptrip.type = typeOfShip.Triple;
+                            Board.TripleShips.Add(tripleShiptrip);
+                            Board.MyShips.Add(tripleShiptrip);
+                            for (int i = 0; i < Board.Letterts.Count; i++)
+                            {
+                                string str = Locations.Text;
+                                char[] q = new char[2];
+                                q = str.ToCharArray();
+                                if (Board.Letterts[i] == Convert.ToString(q[0]))
+                                {
+                                    string W;
+                                    string E;
+                                    W = Board.Letterts[i + 1] + q[1];
+                                    E = Board.Letterts[i + 2] + q[1];
+                                    tripleShiptrip.Loca[0] = str;
+                                    tripleShiptrip.Loca[1] = W;
+                                    tripleShiptrip.Loca[2] = E;
+                                    DrawShips(tripleShiptrip);
+                                }
+                            }
+                        }
+                        else if (listBox1.SelectedItem == "4")
+                        {
+                            QuadShip quadShip = new QuadShip();
+                            quadShip.type = typeOfShip.Quad;
+                            Board.QuadShips.Add(quadShip);
+                            Board.MyShips.Add(quadShip);
+                            for (int i = 0; i < Board.Letterts.Count; i++)
+                            {
+                                string str = Locations.Text;
+                                char[] q = new char[2];
+                                q = str.ToCharArray();
+                                if (Board.Letterts[i] == Convert.ToString(q[0]))
+                                {
+                                    string W;
+                                    string E;
+                                    string R;
+                                    W = Board.Letterts[i + 1] + q[1];
+                                    E = Board.Letterts[i + 2] + q[1];
+                                    R = Board.Letterts[i + 3] + q[1];
+                                    quadShip.Loca[0] = str;
+                                    quadShip.Loca[1] = W;
+                                    quadShip.Loca[2] = E;
+                                    quadShip.Loca[3] = R;
+                                }
+                            }
+                            listBox1.Items.Remove("4");
+                        }
+                        checkBoxX.Checked = false;
+                    }
+                    else if (checkBoxY.Checked)
+                    {
+                        if (listBox1.SelectedItem == "1")
+                        {
+
+                            string str = Locations.Text;
+                            SingleShip singleShip = new SingleShip(str);
+                            singleShip.type = typeOfShip.Single;
+                            Board.SingleShips.Add(singleShip);
+                            Board.MyShips.Add(singleShip);
+                            DrawShips(singleShip);
+                        }
+                        else if (listBox1.SelectedItem == "2")
+                        {
+
+                            TwiceShip twiceShip = new TwiceShip();
+                            twiceShip.type = typeOfShip.Twice;
+                            Board.TwiceShips.Add(twiceShip);
+                            Board.MyShips.Add(twiceShip);
+                            for (int i = 0; i < Panels.Count; i++)
+                            {
+                                string stri = Locations.Text;
+                                if (stri == Panels[i].Name)
+                                {
+                                    twiceShip.Loca[0] = stri;
+                                    twiceShip.Loca[1] = Panels[i + 1].Name;
+                                    DrawShips(twiceShip);
+                                }
+                            }
+
+                        }
+                        else if (listBox1.SelectedItem == "4")
+                        {
+                            QuadShip quadShip = new QuadShip();
+                            quadShip.type = typeOfShip.Quad;
+                            Board.QuadShips.Add(quadShip);
+                            Board.MyShips.Add(quadShip);
+                            for (int i = 0; i < Panels.Count; i++)
+                            {
+                                string stri = Locations.Text;
+                                if (stri == Panels[i].Name)
+                                {
+                                    quadShip.Loca[0] = stri;
+                                    quadShip.Loca[1] = Panels[i + 1].Name;
+                                    quadShip.Loca[2] = Panels[i + 2].Name;
+                                    quadShip.Loca[3] = Panels[i + 3].Name;
+                                    listBox1.Items.Remove("4");
+                                    DrawShips(quadShip);
+                                }
+                            }
+                        }
+                        else if (listBox1.SelectedItem == "3")
+                        {
+
+                            TripleShip tripleShip = new TripleShip();
+                            tripleShip.type = typeOfShip.Triple;
+                            Board.TripleShips.Add(tripleShip);
+                            Board.MyShips.Add(tripleShip);
+                            for (int i = 0; i < Panels.Count; i++)
+                            {
+                                string stri = Locations.Text;
+                                if (stri == Panels[i].Name)
+                                {
+                                    tripleShip.Loca[0] = stri;
+                                    tripleShip.Loca[1] = Panels[i + 1].Name;
+                                    tripleShip.Loca[2] = Panels[i + 2].Name;
+                                    DrawShips(tripleShip);
+                                }
+                            }
+
+                        }
+                        checkBoxY.Checked = false;
+                    }
+
+
 
                 }
-
-
+                CounterTextBox.Text = Convert.ToString(Board.MyShips.Count);
             }
-            else if (listBox1.SelectedItem == "4")
-            {
-                    TwiceShip twiceShip = new TwiceShip(Locations.Text);
-                    Board.MyShips.Add(twiceShip);
-                    listBox1.Items.Remove("4");
-                    //Locations.Items.Remove("A1");
-                
-            }
-
-        }
-        private static void DoRight()
+        
+        private void Panel84_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            FillOpponentPlace.Enabled = false;
+            SingleShip S1 = new SingleShip("B13");
+            SingleShip S2 = new SingleShip("B16");
+            SingleShip S3 = new SingleShip("E18");
+            SingleShip S4 = new SingleShip("H13");
+
+            //B13.BackColor = Color.Green;
+            //B16.BackColor = Color.Green;
+            //E18.BackColor = Color.Green;
+            //H13.BackColor = Color.Green;
+
+            S1.type = typeOfShip.Single;
+            S2.type = typeOfShip.Single;
+            S3.type = typeOfShip.Single;
+            S4.type = typeOfShip.Single;
+
+            Board.OpponentShips.Add(S1);
+            Board.OpponentShips.Add(S2);
+            Board.OpponentShips.Add(S3);
+            Board.OpponentShips.Add(S4);
+
+            TwiceShip T1 = new TwiceShip("E13", "E14");
+            TwiceShip T2 = new TwiceShip("D11", "E11");
+            TwiceShip T3 = new TwiceShip("G18", "H18");
+
+            //E13.BackColor = Color.Green;
+            //E14.BackColor = Color.Green;
+
+            //D11.BackColor = Color.Green;
+            //E11.BackColor = Color.Green;
+
+            //G18.BackColor = Color.Green;
+            //H18.BackColor = Color.Green;
+
+            T1.type = typeOfShip.Twice;
+            T1.type = typeOfShip.Twice;
+            T1.type = typeOfShip.Twice;
+
+            Board.OpponentShips.Add(T1);
+            Board.OpponentShips.Add(T1);
+            Board.OpponentShips.Add(T1);
+
+
+            TripleShip Tr1 = new TripleShip("C18", "C19", "C20");
+            TripleShip Tr2 = new TripleShip("J11", "J12", "J13");
+
+            //C18.BackColor = Color.Green;
+            //C19.BackColor = Color.Green;
+            //C20.BackColor = Color.Green;
+
+            //J11.BackColor = Color.Green;
+            //J12.BackColor = Color.Green;
+            //J13.BackColor = Color.Green;
+            
+            Tr1.type = typeOfShip.Triple;
+            Tr2.type = typeOfShip.Triple;
+
+            Board.OpponentShips.Add(Tr1);
+            Board.OpponentShips.Add(Tr1);
+
+            QuadShip Q1 = new QuadShip("E16", "F16", "G16", "H16");
+
+            //E16.BackColor = Color.Green;
+            //F16.BackColor = Color.Green;
+            //G16.BackColor = Color.Green;
+            //H16.BackColor = Color.Green;
+
+            Q1.type = typeOfShip.Quad;
+
+            Board.OpponentShips.Add(Q1);
+
+            textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+            StartButton.Visible = true;
+        }
+
+        private void Locations_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            OKButton.Visible = true;
+        }
+
+        private void Show_Click(object sender, EventArgs e)
+        {
+
+            AddPanels();
+            for (int i = 0; i < Board.SingleShips.Count; i++)
+            {
+                for (int j = 0; j < Panels.Count; j++)
+                {
+                    if (Board.SingleShips[i].Location == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                }
+
+            }
+
+
+            for (int i = 0; i < Board.TwiceShips.Count; i++)
+            {
+                for (int j = 0; j < Panels.Count; j++)
+                {
+                    if (Board.TwiceShips[i].Loca[0] == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.TwiceShips[i].Loca[1] == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                }
+            }
+
+            for (int i = 0; i < Board.TripleShips.Count; i++)
+            {
+                for (int j = 0; j < Panels.Count; j++)
+                {
+                    if (Board.TripleShips[i].Loca[0] == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.TripleShips[i].Loca[1] == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.TripleShips[i].Loca[2] == Panels[j].Name)
+                    {
+
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                }
+            }
+            for (int i = 0; i < Board.QuadShips.Count; i++)
+            {
+                for (int j = 0; j < Panels.Count; j++)
+                {
+                    if (Board.QuadShips[i].Loca[0] == Panels[j].Name)
+                    {
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.QuadShips[i].Loca[1] == Panels[j].Name)
+                    {
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.QuadShips[i].Loca[2] == Panels[j].Name)
+                    {
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                    if (Board.QuadShips[i].Loca[3] == Panels[j].Name)
+                    {
+                        Panels[j].BackColor = Color.Blue;
+                    }
+                }
+            }
+        }
+
+        private void D1_MouseMove(object sender, MouseEventArgs e)
+        {
+            D1.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void D1_MouseLeave(object sender, EventArgs e)
+        {
+            D1.BorderStyle = BorderStyle.FixedSingle;
+
+        }
+        private int CheckMem()
+        {
+            for (int i = 0; i < Board.MyShips.Count; i++)
+            {
+
+            }
+            int C = 0;
+            return C;
+        }
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            CounterTextBox.Text = Convert.ToString(Board.MyShips.Count);
+        }
+
+        private void DrawShips(Ship a)
+        {
+            if (a.type == typeOfShip.Single)
+            {
+                for (int i = 0; i < Panels.Count; i++)
+                {
+                    if (Convert.ToString(Panels[i].Name) == a.Location)
+                    { 
+                        ChangeColor(Panels[i], Color.LightGreen);
+                    }
+                }
+            }
+            else if(a.type ==typeOfShip.Twice )
+            {
+                for (int qw = 0; qw < Board.TwiceShips.Count; qw++)
+                {
+                    for (int j = 0; j < Panels.Count; j++)
+                    {
+                        if (Board.TwiceShips[qw].Loca[0] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.TwiceShips[qw].Loca[1] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                    }
+                }
+            }
+            else if(a.type == typeOfShip.Triple)
+            {
+                for (int qw = 0; qw < Board.TripleShips.Count; qw++)
+                {
+                    for (int j = 0; j < Panels.Count; j++)
+                    {
+                        if (Board.TripleShips[qw].Loca[0] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.TripleShips[qw].Loca[1] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.TripleShips[qw].Loca[2] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                    }
+                }
+            }
+            else if(a.type == typeOfShip.Quad)
+            {
+                for (int qw = 0; qw < Board.QuadShips.Count; qw++)
+                {
+                    for (int j = 0; j < Panels.Count; j++)
+                    {
+                        if (Board.QuadShips[qw].Loca[0] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.QuadShips[qw].Loca[1] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.QuadShips[qw].Loca[2] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                        if (Board.QuadShips[qw].Loca[3] == Panels[j].Name)
+                        {
+                            ChangeColor(Panels[j], Color.LightGreen);
+                        }
+                    }
+                }
+            }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            FillButton.Visible = false;
+            SingleShip S1 = new SingleShip("A1");
+            SingleShip S2 = new SingleShip("A10");
+            SingleShip S3 = new SingleShip("J1");
+            SingleShip S4 = new SingleShip("J10");
+
+            A1.BackColor = Color.Green;
+            A10.BackColor = Color.Green;
+            J1.BackColor = Color.Green;
+            A10.BackColor = Color.Green;
+
+            S1.type = typeOfShip.Single;
+            S2.type = typeOfShip.Single;
+            S3.type = typeOfShip.Single;
+            S4.type = typeOfShip.Single;
+
+            Board.MyShipsQuick.Add(S1);
+            Board.MyShipsQuick.Add(S2);
+            Board.MyShipsQuick.Add(S3);
+            Board.MyShipsQuick.Add(S4);
+
+            TwiceShip T1 = new TwiceShip("C4", "C5");
+            TwiceShip T2 = new TwiceShip("G2", "H2");
+            TwiceShip T3 = new TwiceShip("C8", "C9");
+
+            C4.BackColor = Color.Green;
+            C5.BackColor = Color.Green;
+
+            G2.BackColor = Color.Green;
+            H2.BackColor = Color.Green;
+
+            C8.BackColor = Color.Green;
+            C9.BackColor = Color.Green;
+
+            T1.type = typeOfShip.Twice;
+            T1.type = typeOfShip.Twice;
+            T1.type = typeOfShip.Twice;
+
+            Board.MyShipsQuick.Add(T1);
+            Board.MyShipsQuick.Add(T1);
+            Board.MyShipsQuick.Add(T1);
+
+
+            TripleShip Tr1 = new TripleShip("J5", "J6", "J7");
+            TripleShip Tr2 = new TripleShip("E6", "F6", "G6");
+
+            J5.BackColor = Color.Green;
+            J6.BackColor = Color.Green;
+            J7.BackColor = Color.Green;
+
+            E6.BackColor = Color.Green;
+            F6.BackColor = Color.Green;
+            G6.BackColor = Color.Green;
+
+            Tr1.type = typeOfShip.Triple;
+            Tr2.type = typeOfShip.Triple;
+
+            Board.MyShipsQuick.Add(Tr1);
+            Board.MyShipsQuick.Add(Tr1);
+
+            QuadShip Q1 = new QuadShip("E9", "F9", "G9", "H9");
+
+            E9.BackColor = Color.Green;
+            F9.BackColor = Color.Green;
+            G9.BackColor = Color.Green;
+            H9.BackColor = Color.Green;
+
+            Q1.type = typeOfShip.Quad;
+
+            Board.MyShipsQuick.Add(Q1);
+
+            CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+
+            Board.MyShipsQuick = Board.MyShips.ToList();
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            if (Board.OpponentShips.Count == 10)
+            {
+                  InputLabel.Visible = true;
+                    ImputedLoc.Visible = true;
+                    ShotButton.Visible = true;
+                    OKButton.Visible = false;
+                    FillButton.Visible = false;
+                    Locations.Visible = false;
+                    checkBoxX.Visible = false;
+                    checkBoxY.Visible = false;
+                    listBox1.Visible = false;
+                    label243.Visible = false;
+                    label244.Visible = false;
+                    FillOpponentPlace.Visible = false;
+                    button2.Visible = false;
+                
+            }
+        }
+
+        private void ShotButton_Click(object sender, EventArgs e)
+        {
+            AddOpponentsPanels();
+            try
+            {
+                string input = ImputedLoc.Text;
+                for (int i = 0; i <Board. ; i++)
+                {
+
+                }
+            }
+        }
     }
-   
 }

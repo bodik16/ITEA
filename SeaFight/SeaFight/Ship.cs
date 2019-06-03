@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace SeaFight
 {
-    abstract class Ship
+    enum typeOfShip
     {
+        Single, 
+        Twice,
+        Triple,
+        Quad
+    }
+    abstract class Ship
+    { 
+        public typeOfShip type;
         protected bool isReady;
         protected int length;
         protected string location;
@@ -21,7 +29,14 @@ namespace SeaFight
 
     class SingleShip :Ship
     {
+        public const typeOfShip ship = typeOfShip.Single;
         private const int L = 1;
+        public int GetLength { get => L; }
+        public SingleShip()
+        {
+            IsReady = true;
+            Length = L;
+        }
         public SingleShip(string Loc)
         {
             IsReady = true;
@@ -47,12 +62,26 @@ namespace SeaFight
     }
     class TwiceShip : Ship
     {
+        public const typeOfShip ship = typeOfShip.Twice;
+
         private const int L = 2;
-        public TwiceShip(string Loc)
+        public int GetLength { get => L; }
+
+        public string[] Loca = new string[L];
+
+        public TwiceShip()
         {
             IsReady = true;
             Length = L;
-            Location = Loc;
+        }
+        public TwiceShip(string Loc1, string Loc2)
+        {
+            IsReady = true;
+            Length = L;
+            Loca[0] = Loc1;
+            Loca[1] = Loc2;
+            //Location = Loc1;
+            //Location = Loc2;
         }
         public override void Dead()
         {
@@ -76,12 +105,26 @@ namespace SeaFight
     }
     class TripleShip:Ship
     {
+        public const typeOfShip ship = typeOfShip.Triple;
+
         private const int L = 3;
-        public TripleShip(string Loc)
+        public int GetLength { get => L; }
+
+        public string[] Loca = new string[L];
+
+        public TripleShip()
         {
             IsReady = true;
             Length = L;
-            Location = Loc;
+        }
+        public TripleShip(string Loc, string Loc1, string Loc2)
+        {
+            IsReady = true;
+            Length = L;
+            Loca[0] = Loc;
+            Loca[1] = Loc1;
+            Loca[2] = Loc2;
+
         }
         public override void Damage()
         {
@@ -105,12 +148,25 @@ namespace SeaFight
     }
     class QuadShip: Ship
     {
+        public const typeOfShip ship = typeOfShip.Quad;
+
         private const int L = 4;
-        public QuadShip(string Loc)
+        public int GetLength { get => L; }
+
+        public string[] Loca = new string[L];
+        public QuadShip()
         {
             IsReady = true;
             Length = L;
-            Location = Loc;
+        }
+        public QuadShip(string Loc, string Loc1, string Loc2, string Loc3)
+        {
+            IsReady = true;
+            Length = L;
+            Loca[0] = Loc;
+            Loca[1] = Loc1;
+            Loca[2] = Loc2;
+            Loca[3] = Loc3;
         }
         public override void Dead()
         {
