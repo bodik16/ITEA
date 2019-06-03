@@ -493,6 +493,9 @@
             this.ImputedLoc = new System.Windows.Forms.TextBox();
             this.InputLabel = new System.Windows.Forms.Label();
             this.ShotButton = new System.Windows.Forms.Button();
+            this.OpponentSshot = new System.Windows.Forms.Button();
+            this.label247 = new System.Windows.Forms.Label();
+            this.label248 = new System.Windows.Forms.Label();
             this.A11.SuspendLayout();
             this.B11.SuspendLayout();
             this.C11.SuspendLayout();
@@ -700,10 +703,11 @@
             // label246
             // 
             this.label246.AutoSize = true;
+            this.label246.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label246.Font = new System.Drawing.Font("Ravie", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label246.Location = new System.Drawing.Point(1062, 387);
             this.label246.Name = "label246";
-            this.label246.Size = new System.Drawing.Size(131, 44);
+            this.label246.Size = new System.Drawing.Size(133, 46);
             this.label246.TabIndex = 68;
             this.label246.Text = "Opponent\'s\r\n ships";
             this.label246.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -789,11 +793,11 @@
             this.LiveText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LiveText.Font = new System.Drawing.Font("NSimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LiveText.ForeColor = System.Drawing.Color.White;
-            this.LiveText.Location = new System.Drawing.Point(852, 74);
+            this.LiveText.Location = new System.Drawing.Point(862, 74);
             this.LiveText.Multiline = true;
             this.LiveText.Name = "LiveText";
             this.LiveText.ReadOnly = true;
-            this.LiveText.Size = new System.Drawing.Size(347, 139);
+            this.LiveText.Size = new System.Drawing.Size(337, 139);
             this.LiveText.TabIndex = 58;
             // 
             // checkedListBox1
@@ -5824,11 +5828,48 @@
             this.ShotButton.Visible = false;
             this.ShotButton.Click += new System.EventHandler(this.ShotButton_Click);
             // 
+            // OpponentSshot
+            // 
+            this.OpponentSshot.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.OpponentSshot.Enabled = false;
+            this.OpponentSshot.Font = new System.Drawing.Font("Ravie", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OpponentSshot.Location = new System.Drawing.Point(816, 667);
+            this.OpponentSshot.Name = "OpponentSshot";
+            this.OpponentSshot.Size = new System.Drawing.Size(297, 61);
+            this.OpponentSshot.TabIndex = 73;
+            this.OpponentSshot.Text = "Opponent\'s Shot";
+            this.OpponentSshot.UseVisualStyleBackColor = false;
+            this.OpponentSshot.Visible = false;
+            this.OpponentSshot.Click += new System.EventHandler(this.OpponentSshot_Click);
+            // 
+            // label247
+            // 
+            this.label247.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label247.Font = new System.Drawing.Font("Ravie", 6F);
+            this.label247.Location = new System.Drawing.Point(1020, 551);
+            this.label247.Name = "label247";
+            this.label247.Size = new System.Drawing.Size(100, 49);
+            this.label247.TabIndex = 74;
+            this.label247.Text = "*Location:\r\n A3 = A13\r\n B7 = B17";
+            this.label247.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label247.Visible = false;
+            // 
+            // label248
+            // 
+            this.label248.Font = new System.Drawing.Font("Ravie", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label248.Location = new System.Drawing.Point(131, 606);
+            this.label248.Name = "label248";
+            this.label248.Size = new System.Drawing.Size(441, 125);
+            this.label248.TabIndex = 75;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1205, 740);
+            this.ClientSize = new System.Drawing.Size(1215, 740);
+            this.Controls.Add(this.label248);
+            this.Controls.Add(this.label247);
+            this.Controls.Add(this.OpponentSshot);
             this.Controls.Add(this.ShotButton);
             this.Controls.Add(this.InputLabel);
             this.Controls.Add(this.ImputedLoc);
@@ -6770,6 +6811,9 @@
         private System.Windows.Forms.TextBox ImputedLoc;
         private System.Windows.Forms.Label InputLabel;
         private System.Windows.Forms.Button ShotButton;
+        private System.Windows.Forms.Button OpponentSshot;
+        private System.Windows.Forms.Label label247;
+        private System.Windows.Forms.Label label248;
     }
 }
 

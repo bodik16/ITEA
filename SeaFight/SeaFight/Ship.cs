@@ -18,10 +18,10 @@ namespace SeaFight
         public typeOfShip type;
         protected bool isReady;
         protected int length;
-        protected string location;
+        public string[] Loca = new string [4];   
         public bool IsReady { get => isReady; set => isReady = value; }
         public int Length { get => length; set => length = value; }
-        public string Location { get => location; set => location = value; }
+        //public string Location { get => location; set => location = value; }
         public abstract void Dead();
         public abstract void Damage();
 
@@ -31,6 +31,9 @@ namespace SeaFight
     {
         public const typeOfShip ship = typeOfShip.Single;
         private const int L = 1;
+        
+         //Loca = new string[L];
+
         public int GetLength { get => L; }
         public SingleShip()
         {
@@ -41,7 +44,7 @@ namespace SeaFight
         {
             IsReady = true;
             Length = L;
-            Location = Loc;
+            Loca[0] = Loc;
 
 
         }
@@ -54,6 +57,7 @@ namespace SeaFight
         public override void Dead()
         {
                 IsReady = false;
+            Board.OpponentShips.Remove(this);
         }
         public override string ToString()
         {
@@ -63,11 +67,10 @@ namespace SeaFight
     class TwiceShip : Ship
     {
         public const typeOfShip ship = typeOfShip.Twice;
-
         private const int L = 2;
         public int GetLength { get => L; }
 
-        public string[] Loca = new string[L];
+        //public string[] Loca = new string[L];
 
         public TwiceShip()
         {
@@ -86,6 +89,7 @@ namespace SeaFight
         public override void Dead()
         {
             IsReady = false;
+            Board.OpponentShips.Remove(this);
         }
         public override void Damage()
         {
@@ -110,7 +114,7 @@ namespace SeaFight
         private const int L = 3;
         public int GetLength { get => L; }
 
-        public string[] Loca = new string[L];
+        //public string[] Loca = new string[L];
 
         public TripleShip()
         {
@@ -140,6 +144,7 @@ namespace SeaFight
         public override void Dead()
         {
             IsReady = false;
+            Board.OpponentShips.Remove(this);
         }
         public override string ToString()
         {
@@ -153,7 +158,7 @@ namespace SeaFight
         private const int L = 4;
         public int GetLength { get => L; }
 
-        public string[] Loca = new string[L];
+        //public string[] Loca = new string[L];
         public QuadShip()
         {
             IsReady = true;
@@ -171,6 +176,7 @@ namespace SeaFight
         public override void Dead()
         {
             IsReady = false;
+            Board.OpponentShips.Remove(this);
         }
         public override void Damage()
         {
