@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace VigenèreCipher
 {
@@ -67,8 +68,9 @@ namespace VigenèreCipher
                 for (int i = 0; i < q; i++)
                 {
                     Lack.Add(Key[i]);
+                    Key.AddRange(Lack);
+                    Lack.Clear();
                 }
-                Key.AddRange(Lack);
             }
             List<int> Sum = new List<int>();
                     for (int i = 0; i < Text.Count; i++)
@@ -92,22 +94,22 @@ namespace VigenèreCipher
             List<int> IndexesFromWords = new List<int>();
             List<int> IndexesFromKeys = new List<int>();
 
-            List<int> IndexesOfEncryptedText = new List<int>();
+            List<int> IndexesOfDecryptedText = new List<int>();
 
             IndexesFromWords = FindIndexesFromText(Text);
             IndexesFromKeys = FindIndexesFromText(Key);
-            IndexesOfEncryptedText = ListOfIndexesOfDecryptedText(IndexesFromWords, IndexesFromKeys).ToList();
+            IndexesOfDecryptedText = ListOfIndexesOfDecryptedText(IndexesFromWords, IndexesFromKeys).ToList();
 
             int count = Text.Length;
             char[] EncryptedLetters = new char[count];
 
-            for (int i = 0; i < IndexesOfEncryptedText.Count; i++)
+            for (int i = 0; i < IndexesOfDecryptedText.Count; i++)
             {
                 //if()
                 for (int j = 0; j < Alphabet.EnglishAlphabet.Length; j++)
                 {
                     int A;
-                    A = IndexesOfEncryptedText[i];
+                    A = IndexesOfDecryptedText[i];
                     EncryptedLetters[i] = Alphabet.EnglishAlphabet[A];
                     break;
                 }
@@ -133,20 +135,39 @@ namespace VigenèreCipher
             List<int> Sum = new List<int>();
             for (int i = 0; i < Text.Count; i++)
             {
-                int a = Text[i] + Key[i];
-                if (a > 26)
+                int w = 0;
+                int a = Text[i] - Key[i];
+              if(a<0)
                 {
-
-                    int e = (Text[i]+26 - Key[i]);
-                    Sum.Add(e);
+                    a = a % 26+26;
                 }
-                else if (a <= 26)
+              else if(a>=0)
                 {
-                    int w = Text[i]+26 - Key[i];
-                    Sum.Add(w);
+                    a = a % 26;
                 }
+                Sum.Add(a);
             }
             return Sum;
+        }
+        public static void CheckForCorrectText(string A)
+        {
+            char[] arr = A.ToCharArray();
+            int count = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = 0; j < Alphabet.EnglishAlphabet.Length; j++)
+                {
+                    if(arr[i] == Alphabet.EnglishAlphabet[j])
+                    {
+                        count++;
+                    }
+                }
+            }
+            int a = arr.Length;
+            if (count != a)
+            {
+                MessageBox.Show("Please, input correct Text without Numbers or unknown symbols");
+            }
         }
 
     }
