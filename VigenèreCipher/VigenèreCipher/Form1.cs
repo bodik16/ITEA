@@ -30,10 +30,11 @@ namespace VigenèreCipher
 
         private void EncryptButton_Click(object sender, EventArgs e)
         {
-            //DecryptButton.Visible = true;
+            label1.Text = "Text you want to Encrypt";
+            EncryptedLabel.Text = "Encrypted Text";
             if (String.IsNullOrEmpty(EncryptTextBox.Text)|| String.IsNullOrEmpty(KeyTextBox.Text))
             {
-                MessageBox.Show("Can`t do it, type some Text or Key");
+                MessageBox.Show("Text Box or Key Box is Empty, type something");
             }
             else
             {
@@ -46,8 +47,6 @@ namespace VigenèreCipher
                 Cipher.CheckForCorrectText(inputedKey);
                 string A = Cipher.VigenereCipherEnglish(inputedText, inputedKey);
                 EncryptedTextBox.Text = A;
-
-
             }
            
 
@@ -56,6 +55,8 @@ namespace VigenèreCipher
         private void DecryptButton_Click(object sender, EventArgs e)
         {
             EncryptedLabel.Visible = true;
+            EncryptedLabel.Text = "Decrypted Text";
+            label1.Text = "Text you want Decrypt";
             EncryptedTextBox.Visible = true;
             string inputedText = EncryptTextBox.Text.ToLower();
             string inputedKey = KeyTextBox.Text.ToLower();
@@ -75,6 +76,7 @@ namespace VigenèreCipher
 
         private void EncryptButton_MouseClick(object sender, MouseEventArgs e)
         {
+
         }
 
         private void EncryptButton_MouseMove(object sender, MouseEventArgs e)

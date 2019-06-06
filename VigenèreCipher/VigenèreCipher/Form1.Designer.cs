@@ -46,7 +46,7 @@
             this.EncryptTextBox.Location = new System.Drawing.Point(57, 63);
             this.EncryptTextBox.Multiline = true;
             this.EncryptTextBox.Name = "EncryptTextBox";
-            this.EncryptTextBox.Size = new System.Drawing.Size(664, 68);
+            this.EncryptTextBox.Size = new System.Drawing.Size(853, 68);
             this.EncryptTextBox.TabIndex = 0;
             this.EncryptTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.EncryptTextBox.TextChanged += new System.EventHandler(this.EncryptedTextBox_TextChanged);
@@ -60,7 +60,7 @@
             this.label1.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(49, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(672, 39);
+            this.label1.Size = new System.Drawing.Size(861, 39);
             this.label1.TabIndex = 1;
             this.label1.Text = "Text you wont to Encrypt";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,9 +71,9 @@
             this.KeyLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.KeyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.KeyLabel.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KeyLabel.Location = new System.Drawing.Point(188, 149);
+            this.KeyLabel.Location = new System.Drawing.Point(188, 153);
             this.KeyLabel.Name = "KeyLabel";
-            this.KeyLabel.Size = new System.Drawing.Size(387, 33);
+            this.KeyLabel.Size = new System.Drawing.Size(576, 43);
             this.KeyLabel.TabIndex = 3;
             this.KeyLabel.Text = "Key";
             this.KeyLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -83,10 +83,10 @@
             // 
             this.KeyTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.KeyTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KeyTextBox.Location = new System.Drawing.Point(194, 212);
+            this.KeyTextBox.Location = new System.Drawing.Point(194, 226);
             this.KeyTextBox.Multiline = true;
             this.KeyTextBox.Name = "KeyTextBox";
-            this.KeyTextBox.Size = new System.Drawing.Size(381, 33);
+            this.KeyTextBox.Size = new System.Drawing.Size(570, 33);
             this.KeyTextBox.TabIndex = 5;
             this.KeyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.KeyTextBox.Visible = false;
@@ -96,7 +96,7 @@
             // 
             this.EncryptButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.EncryptButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.EncryptButton.Location = new System.Drawing.Point(581, 212);
+            this.EncryptButton.Location = new System.Drawing.Point(770, 226);
             this.EncryptButton.Name = "EncryptButton";
             this.EncryptButton.Size = new System.Drawing.Size(112, 33);
             this.EncryptButton.TabIndex = 6;
@@ -115,11 +115,11 @@
             this.EncryptedTextBox.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.EncryptedTextBox.Font = new System.Drawing.Font("Engravers MT", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EncryptedTextBox.ForeColor = System.Drawing.Color.White;
-            this.EncryptedTextBox.Location = new System.Drawing.Point(53, 314);
+            this.EncryptedTextBox.Location = new System.Drawing.Point(53, 343);
             this.EncryptedTextBox.Multiline = true;
             this.EncryptedTextBox.Name = "EncryptedTextBox";
             this.EncryptedTextBox.ReadOnly = true;
-            this.EncryptedTextBox.Size = new System.Drawing.Size(664, 68);
+            this.EncryptedTextBox.Size = new System.Drawing.Size(853, 85);
             this.EncryptedTextBox.TabIndex = 7;
             this.EncryptedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.EncryptedTextBox.Visible = false;
@@ -133,9 +133,9 @@
             this.EncryptedLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.EncryptedLabel.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EncryptedLabel.ForeColor = System.Drawing.Color.White;
-            this.EncryptedLabel.Location = new System.Drawing.Point(194, 266);
+            this.EncryptedLabel.Location = new System.Drawing.Point(194, 273);
             this.EncryptedLabel.Name = "EncryptedLabel";
-            this.EncryptedLabel.Size = new System.Drawing.Size(381, 33);
+            this.EncryptedLabel.Size = new System.Drawing.Size(570, 55);
             this.EncryptedLabel.TabIndex = 8;
             this.EncryptedLabel.Text = "Encrypted Text";
             this.EncryptedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,7 +145,7 @@
             // 
             this.DecryptButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.DecryptButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DecryptButton.Location = new System.Drawing.Point(581, 405);
+            this.DecryptButton.Location = new System.Drawing.Point(770, 434);
             this.DecryptButton.Name = "DecryptButton";
             this.DecryptButton.Size = new System.Drawing.Size(112, 33);
             this.DecryptButton.TabIndex = 9;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(729, 450);
+            this.ClientSize = new System.Drawing.Size(918, 479);
             this.Controls.Add(this.DecryptButton);
             this.Controls.Add(this.EncryptedLabel);
             this.Controls.Add(this.EncryptedTextBox);

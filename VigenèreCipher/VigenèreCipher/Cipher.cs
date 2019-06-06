@@ -166,7 +166,7 @@ namespace VigenèreCipher
             int a = arr.Length;
             if (count != a)
             {
-                MessageBox.Show("Please, input correct Text without Numbers or unknown symbols");
+                MessageBox.Show("Please, input correct Text without Numbers or unknown symbols. Known symbols were Encrypted/Decrypted");
             }
         }
 
