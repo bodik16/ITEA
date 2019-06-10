@@ -57,7 +57,8 @@ namespace SeaFight
         public override void Dead()
         {
                 IsReady = false;
-            Board.OpponentShips.Remove(this);
+            //Board.OpponentShips.Remove(this);
+            //Board.MyShipsQuick.Remove(this);
         }
         public override string ToString()
         {
@@ -83,13 +84,12 @@ namespace SeaFight
             Length = L;
             Loca[0] = Loc1;
             Loca[1] = Loc2;
-            //Location = Loc1;
-            //Location = Loc2;
         }
         public override void Dead()
         {
             IsReady = false;
-            Board.OpponentShips.Remove(this);
+            //Board.OpponentShips.Remove(this);
+
         }
         public override void Damage()
         {
@@ -144,7 +144,7 @@ namespace SeaFight
         public override void Dead()
         {
             IsReady = false;
-            Board.OpponentShips.Remove(this);
+            //Board.OpponentShips.Remove(this);
         }
         public override string ToString()
         {
@@ -176,7 +176,7 @@ namespace SeaFight
         public override void Dead()
         {
             IsReady = false;
-            Board.OpponentShips.Remove(this);
+            //Board.OpponentShips.Remove(this);
         }
         public override void Damage()
         {

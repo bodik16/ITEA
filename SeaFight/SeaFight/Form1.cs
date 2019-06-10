@@ -17,12 +17,7 @@ namespace SeaFight
             InitializeComponent();
         }
 
-        private void Panel1_Paint(object sender, PaintEventArgs e)
-        {
-            //A1
-
-        }
-
+       
         private void Panel3_Paint(object sender, PaintEventArgs e)
         {
             //B1
@@ -518,1064 +513,13 @@ namespace SeaFight
         {
             //J10
         }
-        private void Panel1_MouseMove(object sender, MouseEventArgs e)
-        {
-            //A1.BackColor = Color.LightGray;
-        }
-        private void Panel1_MouseLeave(object sender, EventArgs e)
-        {
-            //A1.BackColor = Color.LightYellow;
-        }
 
-        private void Panel3_MouseMove(object sender, MouseEventArgs e)
-        {
-            B1.BackColor = Color.LightGray;
-        }
-
-        private void Panel3_MouseLeave(object sender, EventArgs e)
-        {
-            B1.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel4_MouseMove(object sender, MouseEventArgs e)
-        {
-            C1.BackColor = Color.LightGray;
-        }
-
-        private void Panel4_MouseLeave(object sender, EventArgs e)
-        {
-            C1.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel5_MouseMove(object sender, MouseEventArgs e)
-        {
-            D1.BackColor = Color.LightGray;
-        }
-
-        private void Panel5_MouseLeave(object sender, EventArgs e)
-        {
-            D1.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel7_MouseMove(object sender, MouseEventArgs e)
-        {
-            F1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel6_MouseLeave(object sender, EventArgs e)
-        {
-            E1.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel6_MouseMove(object sender, MouseEventArgs e)
-        {
-            E1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel7_MouseLeave_1(object sender, EventArgs e)
-        {
-            F1.BackColor = Color.LightYellow;
-        }
-
-        private void Panel8_MouseMove(object sender, MouseEventArgs e)
-        {
-            G1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel9_MouseMove(object sender, MouseEventArgs e)
-        {
-            H1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel10_MouseMove(object sender, MouseEventArgs e)
-        {
-            I1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel11_MouseMove(object sender, MouseEventArgs e)
-        {
-            J1.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel12_MouseMove(object sender, MouseEventArgs e)
-        {
-            A2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel13_MouseMove(object sender, MouseEventArgs e)
-        {
-            B2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel14_MouseMove(object sender, MouseEventArgs e)
-        {
-            C2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel15_MouseMove(object sender, MouseEventArgs e)
-        {
-            D2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel16_MouseMove(object sender, MouseEventArgs e)
-        {
-            E2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel17_MouseMove(object sender, MouseEventArgs e)
-        {
-            F2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel18_MouseMove(object sender, MouseEventArgs e)
-        {
-            G2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel19_MouseMove(object sender, MouseEventArgs e)
-        {
-            H2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel20_MouseMove(object sender, MouseEventArgs e)
-        {
-            I2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel21_MouseMove(object sender, MouseEventArgs e)
-        {
-            J2.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel31_MouseMove(object sender, MouseEventArgs e)
-        {
-            A3.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel30_MouseMove(object sender, MouseEventArgs e)
-        {
-            B3.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel29_MouseMove(object sender, MouseEventArgs e)
-        {
-            C3.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel28_MouseMove(object sender, MouseEventArgs e)
-        {
-            D3.BackColor = Color.LightGray;
-        }
-
-        private void Panel27_MouseMove(object sender, MouseEventArgs e)
-        {
-            E3.BackColor = Color.LightGray;
-        }
-
-        private void Panel26_MouseMove(object sender, MouseEventArgs e)
-        {
-            F3.BackColor = Color.LightGray;
-        }
-
-        private void Panel25_MouseMove(object sender, MouseEventArgs e)
-        {
-            G3.BackColor = Color.LightGray;
-        }
-
-        private void Panel24_MouseMove(object sender, MouseEventArgs e)
-        {
-            H3.BackColor = Color.LightGray;
-        }
-
-        private void Panel23_MouseMove(object sender, MouseEventArgs e)
-        {
-            I3.BackColor = Color.LightGray;
-        }
-
-        private void Panel22_MouseMove(object sender, MouseEventArgs e)
-        {
-            J3.BackColor = Color.LightGray;
-        }
-
-        private void Panel32_MouseMove(object sender, MouseEventArgs e)
-        {
-            A4.BackColor = Color.LightGray;
-        }
-
-        private void Panel33_MouseMove(object sender, MouseEventArgs e)
-        {
-            B4.BackColor = Color.LightGray;
-        }
-
-        private void Panel34_MouseMove(object sender, MouseEventArgs e)
-        {
-            C4.BackColor = Color.LightGray;
-        }
-
-        private void Panel35_MouseMove(object sender, MouseEventArgs e)
-        {
-            D4.BackColor = Color.LightGray;
-        }
-
-        private void Panel36_MouseMove(object sender, MouseEventArgs e)
-        {
-            E4.BackColor = Color.LightGray;
-        }
-
-        private void Panel37_MouseMove(object sender, MouseEventArgs e)
-        {
-            F4.BackColor = Color.LightGray;
-        }
-
-        private void Panel38_MouseMove(object sender, MouseEventArgs e)
-        {
-            G4.BackColor = Color.LightGray;
-        }
-
-        private void Panel39_MouseMove(object sender, MouseEventArgs e)
-        {
-            H4.BackColor = Color.LightGray;
-        }
-
-        private void Panel40_MouseMove(object sender, MouseEventArgs e)
-        {
-            I4.BackColor = Color.LightGray;
-        }
-
-        private void Panel42_MouseMove(object sender, MouseEventArgs e)
-        {
-            J4.BackColor = Color.LightGray;
-        }
-
-        private void Panel54_MouseMove(object sender, MouseEventArgs e)
-        {
-            A5.BackColor = Color.LightGray;
-        }
-
-        private void Panel53_MouseMove(object sender, MouseEventArgs e)
-        {
-            B5.BackColor = Color.LightGray;
-        }
-
-        private void Panel52_MouseMove(object sender, MouseEventArgs e)
-        {
-            C5.BackColor = Color.LightGray;
-        }
-
-        private void Panel51_MouseMove(object sender, MouseEventArgs e)
-        {
-            D5.BackColor = Color.LightGray;
-        }
-
-        private void Panel50_MouseMove(object sender, MouseEventArgs e)
-        {
-            E5.BackColor = Color.LightGray;
-        }
-
-        private void Panel48_MouseMove(object sender, MouseEventArgs e)
-        {
-            F5.BackColor = Color.LightGray;
-        }
-
-        private void Panel47_MouseLeave(object sender, EventArgs e)
-        {
-            G5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel47_MouseMove(object sender, MouseEventArgs e)
-        {
-            G5.BackColor = Color.LightGray;
-        }
-
-        private void Panel46_MouseMove(object sender, MouseEventArgs e)
-        {
-            H5.BackColor = Color.LightGray;
-        }
-
-        private void Panel45_MouseMove(object sender, MouseEventArgs e)
-        {
-            I5.BackColor = Color.LightGray;
-        }
-
-        private void Panel43_MouseMove(object sender, MouseEventArgs e)
-        {
-            J5.BackColor = Color.LightGray;
-        }
-
-        private void Panel9_MouseLeave(object sender, EventArgs e)
-        {
-            H1.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel10_MouseLeave(object sender, EventArgs e)
-        {
-            I1.BackColor = Color.LightYellow;
-        }
-
-        private void Panel11_MouseLeave(object sender, EventArgs e)
-        {
-            J1.BackColor = Color.LightYellow;
-        }
-
-        private void Panel12_MouseLeave(object sender, EventArgs e)
-        {
-            A2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel13_MouseLeave(object sender, EventArgs e)
-        {
-            B2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel14_MouseLeave(object sender, EventArgs e)
-        {
-            C2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel15_MouseLeave(object sender, EventArgs e)
-        {
-            D2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel16_MouseLeave(object sender, EventArgs e)
-        {
-            E2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel17_MouseLeave(object sender, EventArgs e)
-        {
-            F2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel18_MouseLeave(object sender, EventArgs e)
-        {
-            G2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel19_MouseLeave(object sender, EventArgs e)
-        {
-            H2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel20_MouseLeave(object sender, EventArgs e)
-        {
-            I2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel21_MouseLeave(object sender, EventArgs e)
-        {
-            J2.BackColor = Color.LightYellow;
-        }
-
-        private void Panel31_MouseLeave(object sender, EventArgs e)
-        {
-            A3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel30_MouseLeave(object sender, EventArgs e)
-        {
-            B3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel29_MouseLeave(object sender, EventArgs e)
-        {
-            C3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel28_MouseLeave(object sender, EventArgs e)
-        {
-            D3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel27_MouseLeave(object sender, EventArgs e)
-        {
-            E3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel26_MouseLeave(object sender, EventArgs e)
-        {
-            F3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel25_MouseLeave(object sender, EventArgs e)
-        {
-            G3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel24_MouseLeave(object sender, EventArgs e)
-        {
-            H3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel23_MouseLeave(object sender, EventArgs e)
-        {
-            I3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel22_MouseLeave(object sender, EventArgs e)
-        {
-            J3.BackColor = Color.LightYellow;
-        }
-
-        private void Panel32_MouseLeave(object sender, EventArgs e)
-        {
-            A4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel33_MouseLeave(object sender, EventArgs e)
-        {
-            B4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel34_MouseLeave(object sender, EventArgs e)
-        {
-            C4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel35_MouseLeave(object sender, EventArgs e)
-        {
-            D4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel36_MouseLeave(object sender, EventArgs e)
-        {
-            E4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel37_MouseLeave(object sender, EventArgs e)
-        {
-            F4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel38_MouseLeave(object sender, EventArgs e)
-        {
-            G4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel39_MouseLeave(object sender, EventArgs e)
-        {
-            H4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel40_MouseLeave(object sender, EventArgs e)
-        {
-            I4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel42_MouseLeave(object sender, EventArgs e)
-        {
-            J4.BackColor = Color.LightYellow;
-        }
-
-        private void Panel54_MouseLeave(object sender, EventArgs e)
-        {
-            A5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel53_MouseLeave(object sender, EventArgs e)
-        {
-            B5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel52_MouseLeave(object sender, EventArgs e)
-        {
-            C5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel51_MouseLeave(object sender, EventArgs e)
-        {
-            D5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel50_MouseLeave(object sender, EventArgs e)
-        {
-            E5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel48_MouseLeave(object sender, EventArgs e)
-        {
-            F5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel46_MouseLeave(object sender, EventArgs e)
-        {
-            H5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel45_MouseLeave(object sender, EventArgs e)
-        {
-            I5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel43_MouseLeave(object sender, EventArgs e)
-        {
-            J5.BackColor = Color.LightYellow;
-        }
-
-        private void Panel8_MouseLeave(object sender, EventArgs e)
-        {
-            G1.BackColor = Color.LightYellow;
-        }
-
-        private void Panel55_MouseMove(object sender, MouseEventArgs e)
-        {
-            A6.BackColor = Color.LightGray;
-        }
-
-        private void Panel56_MouseMove(object sender, MouseEventArgs e)
-        {
-            B6.BackColor = Color.LightGray;
-        }
-
-        private void Panel58_MouseMove(object sender, MouseEventArgs e)
-        {
-            C6.BackColor = Color.LightGray;
-        }
-
-        private void Panel59_MouseMove(object sender, MouseEventArgs e)
-        {
-            D6.BackColor = Color.LightGray;
-        }
-
-        private void Panel60_MouseMove(object sender, MouseEventArgs e)
-        {
-            E6.BackColor = Color.LightGray;
-        }
-
-        private void Panel62_MouseMove(object sender, MouseEventArgs e)
-        {
-            F6.BackColor = Color.LightGray;
-        }
-
-        private void Panel63_MouseMove(object sender, MouseEventArgs e)
-        {
-            G6.BackColor = Color.LightGray;
-        }
 
         private void Panel64_MouseUp(object sender, MouseEventArgs e)
         {
             //panel64.BackColor = Color.LightGray;
         }
-
-        private void Panel64_MouseMove(object sender, MouseEventArgs e)
-        {
-            H6.BackColor = Color.LightGray;
-        }
-
-        private void Panel65_MouseMove(object sender, MouseEventArgs e)
-        {
-            I6.BackColor = Color.LightGray;
-
-        }
-
-        private void Panel66_MouseMove(object sender, MouseEventArgs e)
-        {
-            J6.BackColor = Color.LightGray;
-        }
-
-        private void Panel80_MouseMove(object sender, MouseEventArgs e)
-        {
-            A7.BackColor = Color.LightGray;
-        }
-
-        private void Panel79_MouseMove(object sender, MouseEventArgs e)
-        {
-            B7.BackColor = Color.LightGray;
-        }
-
-        private void Panel78_MouseMove(object sender, MouseEventArgs e)
-        {
-            C7.BackColor = Color.LightGray;
-        }
-
-        //private void Panel75_MouseMove(object sender, MouseEventArgs e)
-        //{
-        //    panel75.BackColor = Color.LightGray;
-        //}
-
-        private void Panel74_MouseMove(object sender, MouseEventArgs e)
-        {
-            E7.BackColor = Color.LightGray;
-        }
-
-        private void Panel72_MouseMove(object sender, MouseEventArgs e)
-        {
-            F7.BackColor = Color.LightGray;
-        }
-
-        private void Panel70_MouseMove(object sender, MouseEventArgs e)
-        {
-            G7.BackColor = Color.LightGray;
-        }
-
-        private void Panel69_MouseMove(object sender, MouseEventArgs e)
-        {
-            H7.BackColor = Color.LightGray;
-        }
-
-        private void Panel68_MouseMove(object sender, MouseEventArgs e)
-        {
-            I7.BackColor = Color.LightGray;
-        }
-
-        private void Panel67_MouseMove(object sender, MouseEventArgs e)
-        {
-            J7.BackColor = Color.LightGray;
-        }
-
-        private void Panel81_MouseMove(object sender, MouseEventArgs e)
-        {
-            A8.BackColor = Color.LightGray;
-        }
-
-        private void Panel82_MouseMove(object sender, MouseEventArgs e)
-        {
-            B8.BackColor = Color.LightGray;
-        }
-
-        private void Panel83_MouseMove(object sender, MouseEventArgs e)
-        {
-            C8.BackColor = Color.LightGray;
-        }
-
-        private void Panel85_MouseMove(object sender, MouseEventArgs e)
-        {
-            D8.BackColor = Color.LightGray;
-        }
-
-        private void Panel86_MouseMove(object sender, MouseEventArgs e)
-        {
-            E8.BackColor = Color.LightGray;
-        }
-
-        private void Panel87_MouseMove(object sender, MouseEventArgs e)
-        {
-            F8.BackColor = Color.LightGray;
-        }
-
-        private void Panel89_MouseMove(object sender, MouseEventArgs e)
-        {
-            G8.BackColor = Color.LightGray;
-        }
-
-        private void Panel90_MouseMove(object sender, MouseEventArgs e)
-        {
-            H8.BackColor = Color.LightGray;
-        }
-
-        private void Panel91_MouseMove(object sender, MouseEventArgs e)
-        {
-            I8.BackColor = Color.LightGray;
-        }
-
-        private void Panel93_MouseMove(object sender, MouseEventArgs e)
-        {
-            J8.BackColor = Color.LightGray;
-        }
-
-        private void Panel95_MouseMove(object sender, MouseEventArgs e)
-        {
-            A9.BackColor = Color.LightGray;
-        }
-
-        private void Panel97_MouseMove(object sender, MouseEventArgs e)
-        {
-            B9.BackColor = Color.LightGray;
-        }
-
-        private void Panel99_MouseMove(object sender, MouseEventArgs e)
-        {
-            C9.BackColor = Color.LightGray;
-        }
-
-        private void Panel101_MouseMove(object sender, MouseEventArgs e)
-        {
-            D9.BackColor = Color.LightGray;
-        }
-
-        private void Panel103_MouseMove(object sender, MouseEventArgs e)
-        {
-            E9.BackColor = Color.LightGray;
-        }
-
-        private void Panel105_MouseMove(object sender, MouseEventArgs e)
-        {
-            F9.BackColor = Color.LightGray;
-        }
-
-        private void Panel107_MouseMove(object sender, MouseEventArgs e)
-        {
-            G9.BackColor = Color.LightGray;
-        }
-
-        private void Panel108_MouseMove(object sender, MouseEventArgs e)
-        {
-            H9.BackColor = Color.LightGray;
-        }
-
-        private void Panel109_MouseMove(object sender, MouseEventArgs e)
-        {
-            I9.BackColor = Color.LightGray;
-        }
-
-        private void Panel111_MouseMove(object sender, MouseEventArgs e)
-        {
-            J9.BackColor = Color.LightGray;
-        }
-
-        private void Panel113_MouseMove(object sender, MouseEventArgs e)
-        {
-            A10.BackColor = Color.LightGray;
-        }
-
-        private void Panel115_MouseMove(object sender, MouseEventArgs e)
-        {
-            B10.BackColor = Color.LightGray;
-        }
-
-        private void Panel117_MouseMove(object sender, MouseEventArgs e)
-        {
-            C10.BackColor = Color.LightGray;
-        }
-
-        private void Panel118_MouseMove(object sender, MouseEventArgs e)
-        {
-            D10.BackColor = Color.LightGray;
-        }
-
-        private void Panel120_MouseMove(object sender, MouseEventArgs e)
-        {
-            E10.BackColor = Color.LightGray;
-        }
-
-        private void Panel122_MouseMove(object sender, MouseEventArgs e)
-        {
-            F10.BackColor = Color.LightGray;
-        }
-
-        private void Panel124_MouseMove(object sender, MouseEventArgs e)
-        {
-            G10.BackColor = Color.LightGray;
-        }
-
-        private void Panel126_MouseMove(object sender, MouseEventArgs e)
-        {
-            H10.BackColor = Color.LightGray;
-        }
-
-        private void Panel127_MouseMove(object sender, MouseEventArgs e)
-        {
-            I10.BackColor = Color.LightGray;
-        }
-
-        private void Panel129_MouseMove(object sender, MouseEventArgs e)
-        {
-            J10.BackColor = Color.LightGray;
-        }
-
-        private void Panel55_MouseLeave(object sender, EventArgs e)
-        {
-            A6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel56_MouseLeave(object sender, EventArgs e)
-        {
-            B6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel58_MouseLeave(object sender, EventArgs e)
-        {
-            C6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel59_MouseLeave(object sender, EventArgs e)
-        {
-            D6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel60_MouseLeave(object sender, EventArgs e)
-        {
-            E6.BackColor = Color.LightYellow;
-        }
-
-        //private void Panel61_MouseMove(object sender, MouseEventArgs e)
-        //{
-        //    panel61.BackColor = Color.LightGray;
-        //}
-
-        //private void Panel61_MouseLeave(object sender, EventArgs e)
-        //{
-        //    panel61.BackColor = Color.LightYellow;
-        //}
-
-        private void Panel62_MouseLeave(object sender, EventArgs e)
-        {
-            F6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel63_MouseLeave(object sender, EventArgs e)
-        {
-            G6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel64_MouseLeave(object sender, EventArgs e)
-        {
-            H6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel65_MouseLeave(object sender, EventArgs e)
-        {
-            I6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel66_MouseLeave(object sender, EventArgs e)
-        {
-            J6.BackColor = Color.LightYellow;
-        }
-
-        private void Panel80_MouseLeave(object sender, EventArgs e)
-        {
-            A7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel79_MouseLeave(object sender, EventArgs e)
-        {
-            B7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel78_MouseLeave(object sender, EventArgs e)
-        {
-            C7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel76_MouseLeave(object sender, EventArgs e)
-        {
-            D7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel76_MouseMove(object sender, MouseEventArgs e)
-        {
-            D7.BackColor = Color.LightGray;
-        }
-
-        private void Panel74_MouseLeave(object sender, EventArgs e)
-        {
-            E7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel72_MouseLeave(object sender, EventArgs e)
-        {
-            F7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel70_MouseLeave(object sender, EventArgs e)
-        {
-            G7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel69_MouseLeave(object sender, EventArgs e)
-        {
-            H7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel68_MouseLeave(object sender, EventArgs e)
-        {
-            I7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel67_MouseLeave(object sender, EventArgs e)
-        {
-            J7.BackColor = Color.LightYellow;
-        }
-
-        private void Panel81_MouseLeave(object sender, EventArgs e)
-        {
-            A8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel82_MouseLeave(object sender, EventArgs e)
-        {
-            B8.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel83_MouseLeave(object sender, EventArgs e)
-        {
-            C8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel85_MouseLeave(object sender, EventArgs e)
-        {
-            D8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel86_MouseLeave(object sender, EventArgs e)
-        {
-            E8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel87_MouseLeave(object sender, EventArgs e)
-        {
-            F8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel89_MouseLeave(object sender, EventArgs e)
-        {
-            G8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel90_MouseLeave(object sender, EventArgs e)
-        {
-            H8.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel91_MouseLeave(object sender, EventArgs e)
-        {
-            I8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel93_MouseLeave(object sender, EventArgs e)
-        {
-            J8.BackColor = Color.LightYellow;
-        }
-
-        private void Panel95_MouseLeave(object sender, EventArgs e)
-        {
-            A9.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel97_MouseLeave(object sender, EventArgs e)
-        {
-            B9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel99_MouseLeave(object sender, EventArgs e)
-        {
-            C9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel101_MouseLeave(object sender, EventArgs e)
-        {
-            D9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel103_MouseLeave(object sender, EventArgs e)
-        {
-            E9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel105_MouseLeave(object sender, EventArgs e)
-        {
-            F9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel107_MouseHover(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Panel107_MouseLeave(object sender, EventArgs e)
-        {
-            G9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel108_MouseLeave(object sender, EventArgs e)
-        {
-            H9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel109_MouseLeave(object sender, EventArgs e)
-        {
-            I9.BackColor = Color.LightYellow;
-        }
-
-        private void Panel111_MouseLeave(object sender, EventArgs e)
-        {
-            J9.BackColor = Color.LightYellow;
-        }
-
-        //private void Panel112_MouseLeave(object sender, EventArgs e)
-        //{
-        //    panel112.BackColor = Color.LightYellow;
-        //}
-
-        private void Panel115_MouseLeave(object sender, EventArgs e)
-        {
-            B10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel117_MouseLeave(object sender, EventArgs e)
-        {
-            C10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel118_MouseLeave(object sender, EventArgs e)
-        {
-            D10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel120_MouseLeave(object sender, EventArgs e)
-        {
-            E10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel122_MouseLeave(object sender, EventArgs e)
-        {
-            F10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel124_MouseLeave(object sender, EventArgs e)
-        {
-            G10.BackColor = Color.LightYellow;
-
-        }
-
-        private void Panel126_MouseLeave(object sender, EventArgs e)
-        {
-            H10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel127_MouseLeave(object sender, EventArgs e)
-        {
-            I10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel129_MouseLeave(object sender, EventArgs e)
-        {
-            J10.BackColor = Color.LightYellow;
-        }
-
-        private void Panel113_MouseLeave(object sender, EventArgs e)
-        {
-            A10.BackColor = Color.LightYellow;
-        }
-
+       
         private void Panel1_MouseDown(object sender, MouseEventArgs e)
         {
             A1.BorderStyle = BorderStyle.Fixed3D;
@@ -1588,17 +532,6 @@ namespace SeaFight
 
         private void Label137_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Panel41_MouseMove(object sender, MouseEventArgs e)
-        {
-            // panel41.BackColor = Color.LightGray;
-        }
-
-        private void Panel41_MouseLeave(object sender, EventArgs e)
-        {
-            panel41.BackColor = Color.White;
 
         }
 
@@ -2351,10 +1284,16 @@ namespace SeaFight
         {
 
         }
-
         public List<string> ReservedPlaces = new List<string>();
         private void Button1_Click(object sender, EventArgs e)
         {
+            //FirstPlayerPassword.Visible = false;
+           // SecondPlayerPassword.Visible = false;
+            SetPasswordTExtBox.Visible = false;
+            SetPasswordLabel.Visible = false;
+            SetPasswordButton.Visible = false;
+
+            //Створює Кораблі для Опонента та прив'язує їх до панелів
             FillOpponentPlace.Enabled = false;
             SingleShip S1 = new SingleShip("B13");
             SingleShip S2 = new SingleShip("B16");
@@ -2470,117 +1409,23 @@ namespace SeaFight
             textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
             StartButton.Visible = true;
         }
-
         private void Locations_SelectedIndexChanged(object sender, EventArgs e)
         {
             OKButton.Visible = true;
         }
-
-        private void Show_Click(object sender, EventArgs e)
-        {
-
-            AddPanels();
-            for (int i = 0; i < Board.SingleShips.Count; i++)
-            {
-                for (int j = 0; j < Panels.Count; j++)
-                {
-                    if (Board.SingleShips[i].Loca[0] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                }
-
-            }
-
-
-            for (int i = 0; i < Board.TwiceShips.Count; i++)
-            {
-                for (int j = 0; j < Panels.Count; j++)
-                {
-                    if (Board.TwiceShips[i].Loca[0] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.TwiceShips[i].Loca[1] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                }
-            }
-
-            for (int i = 0; i < Board.TripleShips.Count; i++)
-            {
-                for (int j = 0; j < Panels.Count; j++)
-                {
-                    if (Board.TripleShips[i].Loca[0] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.TripleShips[i].Loca[1] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.TripleShips[i].Loca[2] == Panels[j].Name)
-                    {
-
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                }
-            }
-            for (int i = 0; i < Board.QuadShips.Count; i++)
-            {
-                for (int j = 0; j < Panels.Count; j++)
-                {
-                    if (Board.QuadShips[i].Loca[0] == Panels[j].Name)
-                    {
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.QuadShips[i].Loca[1] == Panels[j].Name)
-                    {
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.QuadShips[i].Loca[2] == Panels[j].Name)
-                    {
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                    if (Board.QuadShips[i].Loca[3] == Panels[j].Name)
-                    {
-                        Panels[j].BackColor = Color.Blue;
-                    }
-                }
-            }
-        }
-
         private void D1_MouseMove(object sender, MouseEventArgs e)
         {
             D1.BorderStyle = BorderStyle.Fixed3D;
         }
-
         private void D1_MouseLeave(object sender, EventArgs e)
         {
             D1.BorderStyle = BorderStyle.FixedSingle;
 
         }
-        private int CheckMem()
-        {
-            for (int i = 0; i < Board.MyShips.Count; i++)
-            {
-
-            }
-            int C = 0;
-            return C;
-        }
-
         private void Button1_Click_1(object sender, EventArgs e)
         {
             CounterTextBox.Text = Convert.ToString(Board.MyShips.Count);
         }
-
         private void DrawShips(Ship a)
         {
             if (a.type == typeOfShip.Single)
@@ -2659,19 +1504,25 @@ namespace SeaFight
         }
 
         public List<string> MyReservedPlaces = new List<string>();
-
         private void Button2_Click(object sender, EventArgs e)
         {
+            //FirstPlayerPassword.Visible = false;
+           // SecondPlayerPassword.Visible = false;
+            SetPasswordTExtBox.Visible = false;
+            SetPasswordLabel.Visible = false;
+            SetPasswordButton.Visible = false;
+
+            button2.Enabled = false;
             FillButton.Visible = false;
             SingleShip S1 = new SingleShip("A1");
             SingleShip S2 = new SingleShip("A10");
             SingleShip S3 = new SingleShip("J1");
             SingleShip S4 = new SingleShip("J10");
 
-            A1.BackColor = Color.Green;
-            A10.BackColor = Color.Green;
-            J1.BackColor = Color.Green;
-            A10.BackColor = Color.Green;
+            //A1.BackColor = Color.Green;
+            //A10.BackColor = Color.Green;
+            //J1.BackColor = Color.Green;
+            //A10.BackColor = Color.Green;
 
             S1.type = typeOfShip.Single;
             S2.type = typeOfShip.Single;
@@ -2683,6 +1534,11 @@ namespace SeaFight
             Board.MyShipsQuick.Add(S3);
             Board.MyShipsQuick.Add(S4);
 
+            Board.SingleShips.Add(S1);
+            Board.SingleShips.Add(S2);
+            Board.SingleShips.Add(S3);
+            Board.SingleShips.Add(S4);
+
             MyReservedPlaces.Add("A1");
             MyReservedPlaces.Add("A10");
             MyReservedPlaces.Add("J1");
@@ -2692,14 +1548,14 @@ namespace SeaFight
             TwiceShip T2 = new TwiceShip("G2", "H2");
             TwiceShip T3 = new TwiceShip("C8", "C9");
 
-            C4.BackColor = Color.Green;
-            C5.BackColor = Color.Green;
+            //C4.BackColor = Color.Green;
+            //C5.BackColor = Color.Green;
 
-            G2.BackColor = Color.Green;
-            H2.BackColor = Color.Green;
+            //G2.BackColor = Color.Green;
+            //H2.BackColor = Color.Green;
 
-            C8.BackColor = Color.Green;
-            C9.BackColor = Color.Green;
+            //C8.BackColor = Color.Green;
+            //C9.BackColor = Color.Green;
 
             T1.type = typeOfShip.Twice;
             T2.type = typeOfShip.Twice;
@@ -2708,6 +1564,10 @@ namespace SeaFight
             Board.MyShipsQuick.Add(T1);
             Board.MyShipsQuick.Add(T2);
             Board.MyShipsQuick.Add(T3);
+
+            Board.TwiceShips.Add(T1);
+            Board.TwiceShips.Add(T2);
+            Board.TwiceShips.Add(T3);
 
             MyReservedPlaces.Add("C4");
             MyReservedPlaces.Add("C5");
@@ -2721,19 +1581,22 @@ namespace SeaFight
             TripleShip Tr1 = new TripleShip("J5", "J6", "J7");
             TripleShip Tr2 = new TripleShip("E6", "F6", "G6");
 
-            J5.BackColor = Color.Green;
-            J6.BackColor = Color.Green;
-            J7.BackColor = Color.Green;
+            //J5.BackColor = Color.Green;
+            //J6.BackColor = Color.Green;
+            //J7.BackColor = Color.Green;
 
-            E6.BackColor = Color.Green;
-            F6.BackColor = Color.Green;
-            G6.BackColor = Color.Green;
+            //E6.BackColor = Color.Green;
+            //F6.BackColor = Color.Green;
+            //G6.BackColor = Color.Green;
 
             Tr1.type = typeOfShip.Triple;
             Tr2.type = typeOfShip.Triple;
 
             Board.MyShipsQuick.Add(Tr1);
             Board.MyShipsQuick.Add(Tr2);
+
+            Board.TripleShips.Add(Tr1);
+            Board.TripleShips.Add(Tr2);
 
             MyReservedPlaces.Add("J5");
             MyReservedPlaces.Add("J6");
@@ -2745,14 +1608,16 @@ namespace SeaFight
 
             QuadShip Q1 = new QuadShip("E9", "F9", "G9", "H9");
 
-            E9.BackColor = Color.Green;
-            F9.BackColor = Color.Green;
-            G9.BackColor = Color.Green;
-            H9.BackColor = Color.Green;
+            //E9.BackColor = Color.Green;
+            //F9.BackColor = Color.Green;
+            //G9.BackColor = Color.Green;
+            //H9.BackColor = Color.Green;
 
             Q1.type = typeOfShip.Quad;
 
             Board.MyShipsQuick.Add(Q1);
+
+            Board.QuadShips.Add(Q1);
 
             MyReservedPlaces.Add("E9");
             MyReservedPlaces.Add("F9");
@@ -2761,16 +1626,15 @@ namespace SeaFight
 
             CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
 
-            Board.MyShipsQuick = Board.MyShips.ToList();
+            //Board.MyShipsQuick = Board.MyShips.ToList();
         }
-
         private void StartButton_Click(object sender, EventArgs e)
         {
             if (Board.OpponentShips.Count == 10)
             {
-                label247.Visible = true;
-                OpponentSshot.Visible = true;
-                  InputLabel.Visible = true;
+                    label247.Visible = true;
+                    OpponentSshot.Visible = true;
+                    InputLabel.Visible = true;
                     ImputedLoc.Visible = true;
                     ShotButton.Visible = true;
                     OKButton.Visible = false;
@@ -2786,735 +1650,1357 @@ namespace SeaFight
                 
             }
         }
-
-        private void CheckSingle(string inputed)
-        {
-           for (int i = 0; i < ReservedPlaces.Count; i++)
-            {
-                if (ReservedPlaces[i] == inputed)
-                {
-                    for (int l = 0; l < Board.OSingleShips.Count; l++)
-                    {
-                        if (Board.OSingleShips[l].Loca[0] == inputed)
-                        {
-                                for (int t = 0; t < OpponentsPanels.Count; t++)
-                                {
-                                    if (OpponentsPanels[t].Name == inputed)
-                                    {
-                                        OpponentsPanels[t].BackColor = Color.Red;
-                                        break;
-                                    }
-                                }
-                                Board.OSingleShips[i].Dead();
-                            textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                            ShotButton.Enabled = true;
-                            LiveText.Text = "Perfect shot, Single ship is dead, Shot Again";
-                        }
-                    }
-                    break;
-                }
-                else if(ReservedPlaces[i] != inputed)
-                {
-                    for (int t = 0; t < OpponentsPanels.Count; t++)
-                    {
-                        if (OpponentsPanels[t].Name == inputed)
-                        {
-                            OpponentsPanels[t].BackColor = Color.LightBlue;
-                        }
-                    }
-                    LiveText.Text = "You Miss, Opponent's Shot";
-                    OpponentSshot.Enabled = true;
-                    ShotButton.Enabled = false;
-                }
-            }
-        
-        }
+        List<string> DeadPlaces = new List<string>();
         private void CheckTwice(string inputed)
         {
-            for (int i = 0; i < ReservedPlaces.Count; i++)
+            bool found = false;
+            for (int i = 0; i < Board.OppenentPlaces.Count; i++)
             {
-                if (ReservedPlaces[i] == inputed)
+                if (Board.OppenentPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.OTwiceShips.Count; l++)
+                    found = true;
+                }
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                ShotButton.Enabled = true;
+                OpponentSshot.Enabled = false;
+            }
+
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < ReservedPlaces.Count; i++)
+                {
+                    if (ReservedPlaces[i] == inputed)
                     {
-                        if(Board.OTwiceShips[l].Loca[0] == inputed)
+                        foundReserved = true;
+                    }
+                }
+            }
+
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.OTwiceShips.Count; i++)
+                {
+                    if (Board.OTwiceShips[i].Loca[0] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
                         {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
+                            if (OpponentsPanels[j].Name == inputed)
                             {
-                                if (OpponentsPanels[t].Name == inputed)
+                                Board.OTwiceShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OTwiceShips[i].Length >= 1)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    LiveText.Text = "Good shot. Twice ship is dammage. Shot again!";
                                 }
-                            }
-                            if (Board.OTwiceShips[l].GetLength > 1)
-                            {
-                                Board.OTwiceShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage , Shot Again";
-                            }
-                            else if (Board.OTwiceShips[l].Length == 1)
-                            {
-                                Board.OTwiceShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Twice ship is Dead , Shot Again";
-                            }
-                        }
-                        if(Board.OTwiceShips[l].Loca[1] == inputed)
-                            {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
+                                else if (Board.OTwiceShips[i].Length < 1)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                    LiveText.Text = "Perfect shot. Twice ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
                                 }
-                            }
-                            if (Board.OTwiceShips[l].GetLength > 1)
-                            {
-                                Board.OTwiceShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage , Shot Again";
-                            }
-                            else if (Board.OTwiceShips[l].Length == 1)
-                            {
-                                Board.OTwiceShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Twice ship is Dead , Shot Again";
+                                break;
                             }
                         }
                     }
-                    break;
-                }
-                else
-                {
-                    LiveText.Text = "You Miss, Opponent's Shot";
-                    OpponentSshot.Enabled = true;
-                    ShotButton.Enabled = false;
+                    if (Board.OTwiceShips[i].Loca[1] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OTwiceShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if(Board.OTwiceShips[i].Length>=1)
+                                {
+                                    LiveText.Text = "Good shot. Twice ship is dammage. Shot again!";
+                                }
+                                else if(Board.OTwiceShips[i].Length < 1)
+                                {
+                                    //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                    LiveText.Text = "Perfect shot. Twice ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+                                    CounterTextBox.Text = Convert.ToString(Board.OpponentShips.Count);
+
+                                }
+                                break;
+                            }
+                        }
+                    }
                 }
             }
+            if (found == true)
+            {
+                if (foundReserved == false)
+                {
+                    for (int i = 0; i < OpponentsPanels.Count; i++)
+                    {
+                        if (OpponentsPanels[i].Name == inputed)
+                        {
+                            OpponentsPanels[i].BackColor = Color.Blue;
+                            LiveText.Text = "Unfortunatelly you miss. Opponent's Shot!";
+                            ShotButton.Enabled = false;
+                            OpponentSshot.Enabled = true;
+                        }
+                    }
+                }
+            }
+
+            if(Board.OpponentShips.Count == 0)
+            {
+                label248.BackColor = Color.BlueViolet;
+            }
+
         }
         private void CheckTiple(string inputed)
         {
-            for (int i = 0; i < ReservedPlaces.Count; i++)
+            bool found = false;
+            for (int i = 0; i < Board.OppenentPlaces.Count; i++)
             {
-                if (ReservedPlaces[i] == inputed)
+                if (Board.OppenentPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.OTripleShips.Count; l++)
+                    found = true;
+                }
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                ShotButton.Enabled = true;
+                OpponentSshot.Enabled = false;
+            }
+
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < ReservedPlaces.Count; i++)
+                {
+                    if (ReservedPlaces[i] == inputed)
                     {
-                        if (Board.OTripleShips[l].Loca[0] == inputed)
+                        foundReserved = true;
+                    }
+                }
+            }
+
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.OTripleShips.Count; i++)
+                {
+                    if (Board.OTripleShips[i].Loca[0] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
                         {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
+                            if (OpponentsPanels[j].Name == inputed)
                             {
-                                if (OpponentsPanels[t].Name == inputed)
+                                Board.OTripleShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OTripleShips[i].Length >= 2)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    LiveText.Text = "Good shot. Triple ship is dammage. Shot again!";
                                 }
-                            }
-                            if (Board.OTripleShips[l].Length > 1)
-                            {
-                                Board.OTripleShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OTripleShips[l].Length == 1)
-                            {
-                                Board.OTripleShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Triple ship is Dead, Shot Again";
-                            }
-                        }
-                        if (Board.OTripleShips[l].Loca[1] == inputed)
-                        {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
+                                else if (Board.OTripleShips[i].Length < 1)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    LiveText.Text = "Perfect shot. Triple ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count );
+
                                 }
-                            }
-                            if (Board.OTripleShips[l].Length > 1)
-                            {
-                                Board.OTripleShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if(Board.OTripleShips[l].Length ==1)
-                            {
-                                Board.OTripleShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Triple ship is Dead, Shot Again";
-                            }
-                        }
-                        if (Board.OTripleShips[l].Loca[2] == inputed)
-                        {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
-                                {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.OTripleShips[l].Length > 1)
-                            {
-                                Board.OTripleShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OTripleShips[l].Length == 1)
-                            {
-                                Board.OTripleShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Triple ship is Dead, Shot Again";
+                                break;
                             }
                         }
                     }
-                    break;
-                }
-                else
-                {
-                    LiveText.Text = "You Miss, Opponent's Shot";
-                    OpponentSshot.Enabled = true;
-                    ShotButton.Enabled = false;
+                    if (Board.OTripleShips[i].Loca[1] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OTripleShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OTripleShips[i].Length >= 2)
+                                {
+                                    LiveText.Text = "Good shot. Triple ship is dammage. Shot again!";
+                                }
+                                else if (Board.OTripleShips[i].Length < 1)
+                                {
+                                    LiveText.Text = "Perfect shot. Triple ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count );
+
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (Board.OTripleShips[i].Loca[2] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OTripleShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OTripleShips[i].Length >= 2)
+                                {
+                                    LiveText.Text = "Good shot. Triple ship is dammage. Shot again!";
+                                }
+                                else if (Board.OTripleShips[i].Length < 1)
+                                {
+                                    LiveText.Text = "Perfect shot. Triple ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+
+                                }
+                                break;
+                            }
+                        }
+                    }
                 }
             }
+            if (found == true)
+            {
+                if (foundReserved == false)
+                {
+                    for (int i = 0; i < OpponentsPanels.Count; i++)
+                    {
+                        if (OpponentsPanels[i].Name == inputed)
+                        {
+                            OpponentsPanels[i].BackColor = Color.Blue;
+                            LiveText.Text = "Unfortunatelly you miss. Opponent's Shot!";
+                            ShotButton.Enabled = false;
+                            OpponentSshot.Enabled = true;
+                        }
+                    }
+                }
+            }
+            if (Board.OpponentShips.Count == 0)
+            {
+                label248.BackColor = Color.BlueViolet;
+            }
+
         }
         private void CheckQuad(string inputed)
         {
-            for (int i = 0; i < ReservedPlaces.Count; i++)
+            bool found = false;
+            for (int i = 0; i < Board.OppenentPlaces.Count; i++)
             {
-                if (ReservedPlaces[i] == inputed)
+                if (Board.OppenentPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.OQuadShips.Count; l++)
+                    found = true;
+                }
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                ShotButton.Enabled = true;
+                OpponentSshot.Enabled = false;
+            }
+
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < ReservedPlaces.Count; i++)
+                {
+                    if (ReservedPlaces[i] == inputed)
                     {
-                        if (Board.OQuadShips[l].Loca[0] == inputed)
+                        foundReserved = true;
+                    }
+                }
+            }
+
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.OQuadShips.Count; i++)
+                {
+                    if (Board.OQuadShips[i].Loca[0] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
                         {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
+                            if (OpponentsPanels[j].Name == inputed)
                             {
-                                if (OpponentsPanels[t].Name == inputed)
+                                Board.OQuadShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OQuadShips[i].Length >= 2)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    LiveText.Text = "Good shot. Quad ship is dammage. Shot again!";
                                 }
-                            }
-                            if (Board.OQuadShips[l].Length > 1)
-                            {
-                                Board.OQuadShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OQuadShips[l].Length == 1)
-                            {
-                                Board.OQuadShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead, Shot Again";
-                            }
-                        }
-                        if (Board.OQuadShips[l].Loca[1] == inputed)
-                        {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
+                                else if (Board.OQuadShips[i].Length < 1)
                                 {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
+                                    LiveText.Text = "Perfect shot. Quad ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
                                 }
-                            }
-                            if (Board.OQuadShips[l].Length > 1)
-                            {
-                                Board.OQuadShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OQuadShips[l].Length == 1)
-                            {
-                                Board.OQuadShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead, Shot Again";
-                            }
-                        }
-                        if (Board.OQuadShips[l].Loca[2] == inputed)
-                        {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
-                                {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.OQuadShips[l].Length > 1)
-                            {
-                                Board.OQuadShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OQuadShips[l].Length == 1)
-                            {
-                                Board.OQuadShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead, Shot Again";
-                            }
-                        }
-                        if (Board.OQuadShips[l].Loca[3] == inputed)
-                        {
-                            for (int t = 0; t < OpponentsPanels.Count; t++)
-                            {
-                                if (OpponentsPanels[t].Name == inputed)
-                                {
-                                    OpponentsPanels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.OQuadShips[l].Length > 1)
-                            {
-                                Board.OQuadShips[l].Damage();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, some ship is damage, Shot Again";
-                            }
-                            else if (Board.OQuadShips[l].Length == 1)
-                            {
-                                Board.OQuadShips[l].Dead();
-                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
-                                ShotButton.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead, Shot Again";
+                                break;
                             }
                         }
                     }
-                    break;
+                    if (Board.OQuadShips[i].Loca[1] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OQuadShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OQuadShips[i].Length >= 3)
+                                {
+                                    LiveText.Text = "Good shot. Quad ship is dammage. Shot again!";
+                                }
+                                else if (Board.OQuadShips[i].Length < 1)
+                                {
+                                    LiveText.Text = "Perfect shot. Quad ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (Board.OQuadShips[i].Loca[2] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OQuadShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OQuadShips[i].Length >= 3)
+                                {
+                                    LiveText.Text = "Good shot. Quad ship is dammage. Shot again!";
+                                }
+                                else if (Board.OQuadShips[i].Length < 1)
+                                {
+                                    LiveText.Text = "Perfect shot. Quad ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (Board.OQuadShips[i].Loca[3] == inputed)
+                    {
+                        //Board.OTwiceShips.Remove(Board.OTwiceShips[i]);
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                Board.OQuadShips[i].Damage();
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                if (Board.OQuadShips[i].Length >= 3)
+                                {
+                                    LiveText.Text = "Good shot. Quad ship is dammage. Shot again!";
+                                }
+                                else if (Board.OQuadShips[i].Length < 1)
+                                {
+
+
+                                    LiveText.Text = "Perfect shot. Quad ship is dead. Shot again!";
+                                    Board.OpponentShips.RemoveAt(0);
+                                    textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            if (found == true)
+            {
+                if (foundReserved == false)
+                {
+                    for (int i = 0; i < OpponentsPanels.Count; i++)
+                    {
+                        if (OpponentsPanels[i].Name == inputed)
+                        {
+                            OpponentsPanels[i].BackColor = Color.Blue;
+                            LiveText.Text = "Unfortunatelly you miss. Opponent's Shot!";
+                            ShotButton.Enabled = false;
+                            OpponentSshot.Enabled = true;
+                        }
+                    }
+                }
+            }
+            if (Board.OpponentShips.Count == 0)
+            {
+                label248.BackColor = Color.BlueViolet;
+            }
+        }
+        private void ShotButton_Click(object sender, EventArgs e)
+        {
+            AddOpponentsPanels();
+            string input = ImputedLoc.Text;
+            string str = input.ToUpper();
+
+            bool isOk = false;
+
+            bool isDead = false;
+
+            for (int i = 0; i < DeadPlaces.Count; i++)
+            {
+                if(str==DeadPlaces[i])
+                {
+                    isDead = true;
+                }
+            }
+            if(isDead== true)
+            {
+                MessageBox.Show("You've shooted at this place");
+                ShotButton.Enabled = true;
+            }
+            else if(isDead == false)
+            {
+                DeadPlaces.Add(str);
+            }
+
+            for (int i = 0; i < Board.OppenentPlaces.Count; i++)
+            {
+                if(Board.OppenentPlaces[i] == str)
+                {
+                    isOk = true;
+                }
+            }
+
+            if (isOk == true)
+            {
+                if (ImputedLoc.Text != string.Empty)
+                {
+                    ShotButton.Enabled = false;
+
+                    CheckSingle(str);
+                    CheckTwice(str);
+                    CheckTiple(str);
+                    CheckQuad(str);
+                    if (Board.OpponentShips.Count == 0)
+                    {
+                        label248.Text = "You're Winner";
+                        label248.BackColor = Color.Green;
+                        ShotButton.Enabled = false;
+                        OpponentSshot.Enabled = false;
+                    }
+                    //label248.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                    if (Board.MyShipsQuick.Count == 0)
+                    {
+                        label248.Text = "You Loose";
+                        label248.BackColor = Color.Red;
+                        ShotButton.Enabled = false;
+                        OpponentSshot.Enabled = false;
+                    }
                 }
                 else
                 {
-                    LiveText.Text = "You Miss, Opponent's Shot";
-                    OpponentSshot.Enabled = true;
-                    ShotButton.Enabled = false;
+                    MessageBox.Show("Input some Locations you want to shot");
                 }
             }
-        }
-
-        private void ShotButton_Click(object sender, EventArgs e)
-        {
-                ShotButton.Enabled = false;
-
-                AddOpponentsPanels();
-
-                string input = ImputedLoc.Text;
-                string str = input.ToUpper();
-                CheckSingle(str);
-                CheckTwice(str);
-                CheckTiple(str);
-                CheckQuad(str);
-            if (Board.OpponentShips.Count == 0 )
+            else
             {
-                label248.Text = "You're Winner";
-                label248.BackColor = Color.Green;
-                ShotButton.Enabled = false;
+                MessageBox.Show("Input correct value");
+            }
+            OpponentsPanels.Clear();
+        }
+        private void CheckSingle(string inputed)
+        {
+
+            bool found = false;
+            for (int i = 0; i < Board.OppenentPlaces.Count; i++)
+            {
+                if (Board.OppenentPlaces[i] == inputed)
+                {
+                    found = true;
+                }
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                ShotButton.Enabled = true;
                 OpponentSshot.Enabled = false;
             }
-            //label248.Text = Convert.ToString(Board.MyShipsQuick.Count);
-            //if (Board.MyShipsQuick.Count == 0 )
-            //{
-            //    label248.Text = "You Loose";
-            //    label248.BackColor = Color.Red;
-            //    ShotButton.Enabled = false;
-            //    OpponentSshot.Enabled = false;
-            //}
+            bool foundReserved = false;
 
+            if (found == true)
+            {
+                for (int i = 0; i < ReservedPlaces.Count; i++)
+                {
+                    if (ReservedPlaces[i] == inputed)
+                    {
+                        foundReserved = true;
+                    }
+                }
+            }
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.OSingleShips.Count; i++)
+                {
+                    if (Board.OSingleShips[i].Loca[0] == inputed)
+                    {
+                        Board.OSingleShips[i].Dead();
+                        //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+
+                        for (int j = 0; j < OpponentsPanels.Count; j++)
+                        {
+                            if (OpponentsPanels[j].Name == inputed)
+                            {
+                                OpponentsPanels[j].BackColor = Color.Red;
+                                ShotButton.Enabled = true;
+                                OpponentSshot.Enabled = false;
+                                LiveText.Text = "Perfect shot. Single ship is dead. Shot again!";
+                                Board.OpponentShips.RemoveAt(0);
+                                textBox1.Text = Convert.ToString(Board.OpponentShips.Count);
+                            }
+                        }
+                    }
+                }
+            }
+            if (found == true)
+            {
+                if (foundReserved == false)
+                {
+                    for (int i = 0; i < OpponentsPanels.Count; i++)
+                    {
+                        if (OpponentsPanels[i].Name == inputed)
+                        {
+                            OpponentsPanels[i].BackColor = Color.Blue;
+                            LiveText.Text = "Unfortunatell you miss. Opponent's Shot!";
+                            ShotButton.Enabled = false;
+                            OpponentSshot.Enabled = true;
+                        }
+                    }
+                }
+            }
+
+            if (Board.OpponentShips.Count == 0)
+            {
+                label248.BackColor = Color.BlueViolet;
+            }
         }
         private void MyCheckSingle(string inputed)
         {
-            for (int i = 0; i < MyReservedPlaces.Count; i++)
+            bool found = false;
+            for (int i = 0; i < Board.MyPlaces.Count; i++)
             {
-                if (MyReservedPlaces[i] == inputed)
+                if (Board.MyPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.SingleShips.Count; l++)
-                    {
-                        if (Board.SingleShips[l].Loca[0] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            Board.SingleShips[i].Dead();
-                            CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                            ShotButton.Enabled = true;
-                            LiveText.Text = "Perfect shot, your Single ship is dead, opponent's shot again";
-                        }
-
-                    }
+                    found = true;
                     break;
                 }
-                else
+           
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                OpponentSshot.Enabled = true;
+                ShotButton.Enabled = false;
+            }
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < MyReservedPlaces.Count; i++)
                 {
-                    for (int t = 0; t < Panels.Count; t++)
+                    if (MyReservedPlaces[i] == inputed)
                     {
-                        if (Panels[t].Name == inputed)
+                        foundReserved = true;
+                        break;
+                    }
+                }
+            }
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.SingleShips.Count; i++)
+                {
+                    if (Board.SingleShips[i].Loca[0] == inputed)
+                    {
+                        Board.SingleShips[i].Dead();
+                        //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                        for (int j = 0; j < Panels.Count; j++)
                         {
-                            Panels[t].BackColor = Color.LightBlue;
-                            break;
+                            if (Panels[j].Name == inputed)
+                            {
+                                Panels[j].BackColor = Color.Red;
+                                OpponentSshot.Enabled = true;
+                                ShotButton.Enabled = false;
+                                LiveText.Text = "Perfect shot. Your Single ship is dead. Shot again!";
+                                Board.MyShipsQuick.RemoveAt(0);
+                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                            }
                         }
                     }
-                    LiveText.Text = "Opponent Misses, your Shot";
-                    OpponentSshot.Enabled = false;
-                    ShotButton.Enabled = true;
                 }
+            }
+            if (found == true)
+            {
+                if (foundReserved == false)
+                {
+                    for (int i = 0; i < Panels.Count; i++)
+                    {
+                        if (Panels[i].Name == inputed)
+                        {
+                            Panels[i].BackColor = Color.Blue;
+                            LiveText.Text = "opponent misses. Your Shot!";
+                            OpponentSshot.Enabled = false;
+                            ShotButton.Enabled = true;
+                        }
+                    }
+                }
+            }
+
+            if (Board.OpponentShips.Count == 0)
+            {
+                label248.BackColor = Color.BlueViolet;
             }
         }
         private void MyCheckTwice(string inputed)
         {
-            for (int i = 0; i < MyReservedPlaces.Count; i++)
+
+            bool found = false;
+            for (int i = 0; i < Board.MyPlaces.Count; i++)
             {
-                if (MyReservedPlaces[i] == inputed)
+                if (Board.MyPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.TwiceShips.Count; l++)
-                    {
-                        if (Board.TwiceShips[l].Loca[0] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.OTwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, your Twice ship is Dead, Opponents Shots Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[1] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Twice ship is Dead , Shot Again";
-                            }
-                        }
-                    }
+                    found = true;
                     break;
                 }
-                else
+
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                OpponentSshot.Enabled = true;
+                ShotButton.Enabled = false;
+            }
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < MyReservedPlaces.Count; i++)
                 {
-                    for (int t = 0; t < Panels.Count; t++)
+                    if (MyReservedPlaces[i] == inputed)
                     {
-                        if (Panels[t].Name == inputed)
+                        foundReserved = true;
+                        break;
+                    }
+                }
+            }
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.TwiceShips.Count; i++)
+                {
+                    if (Board.TwiceShips[i].Loca[0] == inputed)
+                    {
+                        Board.TwiceShips[i].Damage();
+                        //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                        for (int j = 0; j < Panels.Count; j++)
                         {
-                            Panels[t].BackColor = Color.LightBlue;
-                            break;
+                            if (Panels[j].Name == inputed)
+                            {
+                                Panels[j].BackColor = Color.Red;
+                                OpponentSshot.Enabled = true;
+                                ShotButton.Enabled = false;
+                                if (Board.TwiceShips[i].Length >= 1)
+                                {
+                                    LiveText.Text = "Good shot. Your Twice ship is dammage. Shot again!";
+                                }
+                                else if (Board.TwiceShips[i].Length < 1)
+                                {
+                                    //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                    LiveText.Text = "Perfect shot. Your Twice ship is dead. Shot again!";
+                                    Board.MyShipsQuick.RemoveAt(0);
+                                    CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                }
+                                break;
+                            }
                         }
                     }
-                    LiveText.Text = "Opponent Misses, your Shot";
-                    OpponentSshot.Enabled = false;
-                    ShotButton.Enabled = true;
                 }
+                if (foundReserved == true)
+                {
+                    for (int i = 0; i < Board.TwiceShips.Count; i++)
+                    {
+                        if (Board.TwiceShips[i].Loca[1] == inputed)
+                        {
+                            Board.TwiceShips[i].Damage();
+                            //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                            for (int j = 0; j < Panels.Count; j++)
+                            {
+                                if (Panels[j].Name == inputed)
+                                {
+                                    Panels[j].BackColor = Color.Red;
+                                    OpponentSshot.Enabled = true;
+                                    ShotButton.Enabled = false;
+                                    if (Board.TwiceShips[i].Length >= 1)
+                                    {
+                                        LiveText.Text = "Good shot. Your Twice ship is dammage. Shot again!";
+                                    }
+                                    else if (Board.TwiceShips[i].Length < 1)
+                                    {
+                                        //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                        LiveText.Text = "Perfect shot. Your Twice ship is dead. Shot again!";
+                                        Board.MyShipsQuick.RemoveAt(0);
+                                        CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (found == true)
+                {
+                    if (foundReserved == false)
+                    {
+                        for (int i = 0; i < Panels.Count; i++)
+                        {
+                            if (Panels[i].Name == inputed)
+                            {
+                                Panels[i].BackColor = Color.Blue;
+                                LiveText.Text = "Opponent misses. Your Shot!";
+                                OpponentSshot.Enabled = false;
+                                ShotButton.Enabled = true;
+                            }
+                        }
+                    }
+                }
+
+                if (Board.OpponentShips.Count == 0)
+                {
+                    label248.BackColor = Color.BlueViolet;
+                }
+
             }
         }
         private void MyCheckTiple(string inputed)
         {
-            for (int i = 0; i < MyReservedPlaces.Count; i++)
+
+            bool found = false;
+            for (int i = 0; i < Board.MyPlaces.Count; i++)
             {
-                if (MyReservedPlaces[i] == inputed)
+                if (Board.MyPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.TwiceShips.Count; l++)
-                    {
-                        if (Board.TwiceShips[l].Loca[0] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.OTwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, your Triple ship is Dead, Opponents Shots Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[1] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Twice ship is Dead , Shot Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[2] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Triple ship is Dead , Shot Again";
-                            }
-                        }
-                    }
+                    found = true;
                     break;
                 }
-                else
+
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                OpponentSshot.Enabled = true;
+                ShotButton.Enabled = false;
+            }
+            bool foundReserved = false;
+
+            if (found == true)
+            {
+                for (int i = 0; i < MyReservedPlaces.Count; i++)
                 {
-                    for (int t = 0; t < Panels.Count; t++)
+                    if (MyReservedPlaces[i] == inputed)
                     {
-                        if (Panels[t].Name == inputed)
+                        foundReserved = true;
+                        break;
+                    }
+                }
+            }
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.TripleShips.Count; i++)
+                {
+                    if (Board.TripleShips[i].Loca[0] == inputed)
+                    {
+                        Board.TripleShips[i].Damage();
+                        //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                        for (int j = 0; j < Panels.Count; j++)
                         {
-                            Panels[t].BackColor = Color.LightBlue;
-                            break;
+                            if (Panels[j].Name == inputed)
+                            {
+                                Panels[j].BackColor = Color.Red;
+                                OpponentSshot.Enabled = true;
+                                ShotButton.Enabled = false;
+                                if (Board.TripleShips[i].Length >= 2)
+                                {
+                                    LiveText.Text = "Good shot. Your Triple ship is dammage. Shot again!";
+                                }
+                                else if (Board.TripleShips[i].Length < 1)
+                                {
+                                    //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                    LiveText.Text = "Perfect shot. Your Triple ship is dead. Shot again!";
+                                    Board.MyShipsQuick.RemoveAt(0);
+                                    CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                }
+                                break;
+                            }
                         }
                     }
-                    LiveText.Text = "Opponent Misses, your Shot";
-                    OpponentSshot.Enabled = false;
-                    ShotButton.Enabled = true;
                 }
+                if (foundReserved == true)
+                {
+                    for (int i = 0; i < Board.TripleShips.Count; i++)
+                    {
+                        if (Board.TripleShips[i].Loca[1] == inputed)
+                        {
+                            Board.TripleShips[i].Damage();
+                            //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                            for (int j = 0; j < Panels.Count; j++)
+                            {
+                                if (Panels[j].Name == inputed)
+                                {
+                                    Panels[j].BackColor = Color.Red;
+                                    OpponentSshot.Enabled = true;
+                                    ShotButton.Enabled = false;
+                                    if (Board.TripleShips[i].Length >= 2)
+                                    {
+                                        LiveText.Text = "Good shot. Your Triple ship is dammage. Shot again!";
+                                    }
+                                    else if (Board.TripleShips[i].Length < 1)
+                                    {
+                                        //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                        LiveText.Text = "Perfect shot. Your Triple ship is dead. Shot again!";
+                                        Board.MyShipsQuick.RemoveAt(0);
+                                        CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (foundReserved == true)
+                {
+                    for (int i = 0; i < Board.TripleShips.Count; i++)
+                    {
+                        if (Board.TripleShips[i].Loca[2] == inputed)
+                        {
+                            Board.TripleShips[i].Damage();
+                            //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                            for (int j = 0; j < Panels.Count; j++)
+                            {
+                                if (Panels[j].Name == inputed)
+                                {
+                                    Panels[j].BackColor = Color.Red;
+                                    OpponentSshot.Enabled = true;
+                                    ShotButton.Enabled = false;
+                                    LiveText.Text = "Perfect shot. Your Triple ship is dead. Shot again!";
+                                    Board.MyShipsQuick.RemoveAt(0);
+                                    CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                }
+                            }
+                        }
+                    }
+                }
+                if (found == true)
+                {
+                    if (foundReserved == false)
+                    {
+                        for (int i = 0; i < Panels.Count; i++)
+                        {
+                            if (Panels[i].Name == inputed)
+                            {
+                                Panels[i].BackColor = Color.Blue;
+                                LiveText.Text = "Opponent misses. Your Shot!";
+                                OpponentSshot.Enabled = false;
+                                ShotButton.Enabled = true;
+                            }
+                        }
+                    }
+                }
+
+                if (Board.OpponentShips.Count == 0)
+                {
+                    label248.BackColor = Color.BlueViolet;
+                }
+
             }
 
         }
         private void MyCheckQuad(string inputed)
         {
 
-            for (int i = 0; i < MyReservedPlaces.Count; i++)
+            bool found = false;
+            for (int i = 0; i < Board.MyPlaces.Count; i++)
             {
-                if (MyReservedPlaces[i] == inputed)
+                if (Board.MyPlaces[i] == inputed)
                 {
-                    for (int l = 0; l < Board.TwiceShips.Count; l++)
-                    {
-                        if (Board.TwiceShips[l].Loca[0] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.OTwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, your Quad ship is Dead, Opponents Shots Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[1] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead , Shot Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[2] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead , Shot Again";
-                            }
-                        }
-                        if (Board.TwiceShips[l].Loca[3] == inputed)
-                        {
-                            for (int t = 0; t < Panels.Count; t++)
-                            {
-                                if (Panels[t].Name == inputed)
-                                {
-                                    Panels[t].BackColor = Color.Red;
-                                    break;
-                                }
-                            }
-                            if (Board.TwiceShips[l].Length > 1)
-                            {
-                                Board.TwiceShips[l].Damage();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, yourship is damage, opponent's Shot Again";
-                            }
-                            else if (Board.TwiceShips[l].Length == 1)
-                            {
-                                Board.TwiceShips[l].Dead();
-                                CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
-                                OpponentSshot.Enabled = true;
-                                LiveText.Text = "Good shot, Quad ship is Dead , Shot Again";
-                            }
-                        }
-                    }
+                    found = true;
                     break;
                 }
-                else
+
+            }
+            if (found == false)
+            {
+                MessageBox.Show("Invalid value");
+                OpponentSshot.Enabled = true;
+                ShotButton.Enabled = false;
+            }
+
+            bool foundReserved = false;
+            if (found == true)
+            {
+                for (int i = 0; i < MyReservedPlaces.Count; i++)
                 {
-                    for (int t = 0; t < Panels.Count; t++)
+                    if (MyReservedPlaces[i] == inputed)
                     {
-                        if (Panels[t].Name == inputed)
+                        foundReserved = true;
+                        break;
+                    }
+                }
+            }
+            if (foundReserved == true)
+            {
+                for (int i = 0; i < Board.QuadShips.Count; i++)
+                {
+                    if (Board.QuadShips[i].Loca[0] == inputed)
+                    {
+                        Board.QuadShips[i].Damage();
+                        //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                        for (int j = 0; j < Panels.Count; j++)
                         {
-                            Panels[t].BackColor = Color.LightBlue;
-                            break;
+                            if (Panels[j].Name == inputed)
+                            {
+                                Panels[j].BackColor = Color.Red;
+                                OpponentSshot.Enabled = true;
+                                ShotButton.Enabled = false;
+                                if (Board.TripleShips[i].Length >= 3)
+                                {
+                                    LiveText.Text = "Good shot. Your Quad ship is dammage. Shot again!";
+                                }
+                                else if (Board.TripleShips[i].Length < 1)
+                                {
+                                    //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                    LiveText.Text = "Perfect shot. Your Quad ship is dead. Shot again!";
+                                    Board.MyShipsQuick.RemoveAt(0);
+                                    CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                }
+                                break;
+                            }
                         }
                     }
-                    LiveText.Text = "Opponent Misses, your Shot";
-                    OpponentSshot.Enabled = false;
-                    ShotButton.Enabled = true;
+                }
+                if (foundReserved == true)
+                {
+                    for (int i = 0; i < Board.QuadShips.Count; i++)
+                    {
+                        if (Board.QuadShips[i].Loca[1] == inputed)
+                        {
+                            Board.QuadShips[i].Damage();
+                            //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                            for (int j = 0; j < Panels.Count; j++)
+                            {
+                                if (Panels[j].Name == inputed)
+                                {
+                                    Panels[j].BackColor = Color.Red;
+                                    OpponentSshot.Enabled = true;
+                                    ShotButton.Enabled = false;
+                                    if (Board.QuadShips[i].Length >= 3)
+                                    {
+                                        LiveText.Text = "Good shot. Your Quad ship is dammage. Shot again!";
+                                    }
+                                    else if (Board.QuadShips[i].Length < 1)
+                                    {
+                                        //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                        LiveText.Text = "Perfect shot. Your Quad ship is dead. Shot again!";
+                                        Board.MyShipsQuick.RemoveAt(0);
+                                        CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                if (foundReserved == true)
+                {
+                    for (int i = 0; i < Board.QuadShips.Count; i++)
+                    {
+                        if (Board.QuadShips[i].Loca[2] == inputed)
+                        {
+                            Board.QuadShips[i].Damage();
+                            //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                            for (int j = 0; j < Panels.Count; j++)
+                            {
+                                if (Panels[j].Name == inputed)
+                                {
+                                    Panels[j].BackColor = Color.Red;
+                                    OpponentSshot.Enabled = true;
+                                    ShotButton.Enabled = false;
+                                    if (Board.QuadShips[i].Length >= 3)
+                                    {
+                                        LiveText.Text = "Good shot. Your Quad ship is dammage. Shot again!";
+                                    }
+                                    else if (Board.QuadShips[i].Length < 1)
+                                    {
+                                        //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                        LiveText.Text = "Perfect shot. Your Quad ship is dead. Shot again!";
+                                        Board.MyShipsQuick.RemoveAt(0);
+                                        CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    if (foundReserved == true)
+                    {
+                        for (int i = 0; i < Board.QuadShips.Count; i++)
+                        {
+                            if (Board.QuadShips[i].Loca[3] == inputed)
+                            {
+                                Board.QuadShips[i].Damage();
+                                //Board.OSingleShips.Remove(Board.OSingleShips[i]);
+                                for (int j = 0; j < Panels.Count; j++)
+                                {
+                                    if (Panels[j].Name == inputed)
+                                    {
+                                        Panels[j].BackColor = Color.Red;
+                                        OpponentSshot.Enabled = true;
+                                        ShotButton.Enabled = false;
+                                        if (Board.QuadShips[i].Length >= 3)
+                                        {
+                                            LiveText.Text = "Good shot. Your Quad ship is dammage. Shot again!";
+                                        }
+                                        else if (Board.QuadShips[i].Length < 1)
+                                        {
+                                            //Board.OpponentShips.Remove(Board.OTwiceShips[i]);
+                                            LiveText.Text = "Perfect shot. Your Quad ship is dead. Shot again!";
+                                            Board.MyShipsQuick.RemoveAt(0);
+                                            CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    if (found == true)
+                    {
+                        if (foundReserved == false)
+                        {
+                            for (int i = 0; i < Panels.Count; i++)
+                            {
+                                if (Panels[i].Name == inputed)
+                                {
+                                    Panels[i].BackColor = Color.Blue;
+                                    LiveText.Text = "Opponent misses. Your Shot!";
+                                    OpponentSshot.Enabled = false;
+                                    ShotButton.Enabled = true;
+                                }
+                            }
+                        }
+                    }
+
+                    if (Board.OpponentShips.Count == 0)
+                    {
+                        label248.BackColor = Color.BlueViolet;
+                    }
+
+                }
+
+            }
+        }
+        List<string> MyDeadPlaces = new List<string>();
+        private void OpponentSshot_Click(object sender, EventArgs e)
+        {
+            AddPanels();
+            string input = ImputedLoc.Text;
+            string str = input.ToUpper();
+
+            bool isOk = false;
+
+            bool isDead = false;
+
+            for (int i = 0; i < MyDeadPlaces.Count; i++)
+            {
+                if (str == MyDeadPlaces[i])
+                {
+                    isDead = true;
+                }
+            }
+            if (isDead == true)
+            {
+                MessageBox.Show("You've shooted at this place");
+                OpponentSshot.Enabled = true;
+            }
+            else if (isDead == false)
+            {
+                MyDeadPlaces.Add(str);
+            }
+
+            for (int i = 0; i < Board.MyPlaces.Count; i++)
+            {
+                if (Board.MyPlaces[i] == str)
+                {
+                    isOk = true;
                 }
             }
 
-        }
+            if (isOk == true)
+            {
+                if (ImputedLoc.Text != string.Empty)
+                {
+                    OpponentSshot.Enabled = false;
+                    MyCheckSingle(str);
+                    MyCheckTwice(str);
+                    MyCheckTiple(str);
+                    MyCheckQuad(str);
+                    if (Board.MyShipsQuick.Count == 0)
+                    {
+                        label248.Text = "You're Winner";
+                        label248.BackColor = Color.Green;
+                        ShotButton.Enabled = false;
+                        OpponentSshot.Enabled = false;
+                    }
+                    //label248.Text = Convert.ToString(Board.MyShipsQuick.Count);
+                    if (Board.MyShipsQuick.Count == 0)
+                    {
+                        label248.Text = "You Loose";
+                        label248.BackColor = Color.Red;
+                        ShotButton.Enabled = false;
+                        OpponentSshot.Enabled = false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Input some Locations you want to shot");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Input correct value");
+            }
+            Panels.Clear();
 
 
-        private void OpponentSshot_Click(object sender, EventArgs e)
-        {
-            OpponentSshot.Enabled = false;
+            //OpponentSshot.Enabled = false;
 
-            AddOpponentsPanels();
+            //AddPanels();
+            //Random random = new Random();
 
-            Random random = new Random();
+            //int a = random.Next(0, 99);
 
-            int a = random.Next(0, 99);
-
-            string input = Board.MyPlaces[a];
-            string str = input.ToUpper();
-            MyCheckSingle(str);
+            //string input = Board.MyPlaces[a];
+            ////string input = "A1";
+            //string str = input.ToUpper();
+            //MyCheckSingle(str);
             //MyCheckTwice(str);
             //MyCheckTiple(str);
             //MyCheckQuad(str);
             //label248.Text = Convert.ToString(Board.MyShipsQuick.Count);
+            //CounterTextBox.Text = Convert.ToString(Board.MyShipsQuick.Count);
+
+        }
+        private void ShowMyShipsButton_Click(object sender, EventArgs e)
+        {
+            PasswordLabel.Visible = true;
+            PasswordTextBox.Visible = true;
+
+            if(PasswordTextBox.Text !=string.Empty)
+            {
+                if (FirstPlayerPassword.Checked == true)
+                {
+                    if (PasswordTextBox.Text == Board.PasswordFirst)
+                    {
+                        A1.BackColor = Color.Green;
+                        A10.BackColor = Color.Green;
+                        J1.BackColor = Color.Green;
+                        A10.BackColor = Color.Green;
+
+
+                        C4.BackColor = Color.Green;
+                        C5.BackColor = Color.Green;
+
+                        G2.BackColor = Color.Green;
+                        H2.BackColor = Color.Green;
+
+                        C8.BackColor = Color.Green;
+                        C9.BackColor = Color.Green;
+
+
+                        J5.BackColor = Color.Green;
+                        J6.BackColor = Color.Green;
+                        J7.BackColor = Color.Green;
+
+                        E6.BackColor = Color.Green;
+                        F6.BackColor = Color.Green;
+                        G6.BackColor = Color.Green;
+
+
+                        E9.BackColor = Color.Green;
+                        F9.BackColor = Color.Green;
+                        G9.BackColor = Color.Green;
+                        H9.BackColor = Color.Green;
+                    }
+                    else if (SecondPlayerPassword.Checked == true)
+                    {
+                        label248.Text = "Wrong Password";
+                    }
+                    else
+                    {
+                        label248.Text = "Something went wrong";
+                    }
+                }
+                else if (PasswordTextBox.Text == Board.PasswordSecond)
+                {
+                    if (SecondPlayerPassword.Checked == true)
+                    {
+
+                        B13.BackColor = Color.Green;
+                        B16.BackColor = Color.Green;
+                        E18.BackColor = Color.Green;
+                        H13.BackColor = Color.Green;
+
+
+                        E13.BackColor = Color.Green;
+                        E14.BackColor = Color.Green;
+
+                        D11.BackColor = Color.Green;
+                        E11.BackColor = Color.Green;
+
+                        G18.BackColor = Color.Green;
+                        H18.BackColor = Color.Green;
+
+
+                        C18.BackColor = Color.Green;
+                        C19.BackColor = Color.Green;
+                        C20.BackColor = Color.Green;
+
+                        J11.BackColor = Color.Green;
+                        J12.BackColor = Color.Green;
+                        J13.BackColor = Color.Green;
+
+
+                        E16.BackColor = Color.Green;
+                        F16.BackColor = Color.Green;
+                        G16.BackColor = Color.Green;
+                        H16.BackColor = Color.Green;
+
+                    }
+                    else if(FirstPlayerPassword.Checked == true)
+                    {
+                        label248.Text = "Wrong Password";
+                    }
+                    else
+                    {
+                        label248.Text = "Something went wrong";
+                        //MessageBox.Show("FDFFFDDFDD");
+                    }
+                }
+
+               
+            }
+        }
+        int cou = 0;
+        private void SetPasswordButton_Click(object sender, EventArgs e)
+        {
+
+            cou = cou + 1;
+            if(cou>1)
+            {
+                button2.Enabled = true;
+                FillOpponentPlace.Enabled = true;
+            }
+            if (FirstPlayerPassword.Checked == true)
+            {
+                SecondPlayerPassword.Enabled = false;
+                SecondPlayerPassword.Checked = false;
+                if(SetPasswordTExtBox.Text != string.Empty)
+                {
+                    Board.PasswordFirst = SetPasswordTExtBox.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Input your Password");
+                }
+            }
+            else if(SecondPlayerPassword.Checked == true)
+            {
+                FirstPlayerPassword.Enabled = false;
+                FirstPlayerPassword.Checked = false;
+                if (SetPasswordTExtBox.Text != string.Empty)
+                {
+                    Board.PasswordSecond = SetPasswordTExtBox.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Input your Password");
+                }
+            }
+
+            FirstPlayerPassword.Enabled = true;
+            SecondPlayerPassword.Enabled = true;
+            FirstPlayerPassword.Checked = false;
+            SecondPlayerPassword.Checked = false;
+            SetPasswordTExtBox.Clear();
+
+        }
+        private void FirstPlayerPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if(FirstPlayerPassword.Checked == true)
+            {
+                SetPasswordTExtBox.Enabled = true;
+                SecondPlayerPassword.Enabled = false;
+            }
+            else
+            {
+                SetPasswordTExtBox.Enabled = false;
+                SecondPlayerPassword.Enabled = true; ;
+            }
+        }
+        private void SecondPlayerPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if (SecondPlayerPassword.Checked == true)
+            {
+                SetPasswordTExtBox.Enabled = true;
+                FirstPlayerPassword.Enabled = false;
+            }
+            else
+            {
+                SetPasswordTExtBox.Enabled = false;
+                FirstPlayerPassword.Enabled = true; ;
+            }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
 
+        private void Label146_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label246 = new System.Windows.Forms.Label();
             this.label245 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -495,7 +496,15 @@
             this.ShotButton = new System.Windows.Forms.Button();
             this.OpponentSshot = new System.Windows.Forms.Button();
             this.label247 = new System.Windows.Forms.Label();
+            this.ShowMyShipsButton = new System.Windows.Forms.Button();
             this.label248 = new System.Windows.Forms.Label();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.SetPasswordTExtBox = new System.Windows.Forms.TextBox();
+            this.SetPasswordLabel = new System.Windows.Forms.Label();
+            this.FirstPlayerPassword = new System.Windows.Forms.CheckBox();
+            this.SecondPlayerPassword = new System.Windows.Forms.CheckBox();
+            this.SetPasswordButton = new System.Windows.Forms.Button();
             this.A11.SuspendLayout();
             this.B11.SuspendLayout();
             this.C11.SuspendLayout();
@@ -702,10 +711,11 @@
             // 
             // label246
             // 
+            this.label246.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label246.AutoSize = true;
             this.label246.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label246.Font = new System.Drawing.Font("Ravie", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label246.Location = new System.Drawing.Point(1062, 387);
+            this.label246.Location = new System.Drawing.Point(1067, 387);
             this.label246.Name = "label246";
             this.label246.Size = new System.Drawing.Size(133, 46);
             this.label246.TabIndex = 68;
@@ -714,10 +724,11 @@
             // 
             // label245
             // 
+            this.label245.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label245.AutoSize = true;
             this.label245.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label245.Font = new System.Drawing.Font("Ravie", 10F);
-            this.label245.Location = new System.Drawing.Point(881, 387);
+            this.label245.Location = new System.Drawing.Point(886, 387);
             this.label245.Name = "label245";
             this.label245.Size = new System.Drawing.Size(115, 24);
             this.label245.TabIndex = 67;
@@ -726,10 +737,11 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.BackColor = System.Drawing.SystemColors.MenuText;
             this.textBox1.Font = new System.Drawing.Font("Ravie", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(1037, 241);
+            this.textBox1.Location = new System.Drawing.Point(1042, 241);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -739,7 +751,9 @@
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Enabled = false;
             this.button2.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(16, 411);
             this.button2.Name = "button2";
@@ -751,10 +765,11 @@
             // 
             // CounterTextBox
             // 
+            this.CounterTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CounterTextBox.BackColor = System.Drawing.SystemColors.MenuText;
             this.CounterTextBox.Font = new System.Drawing.Font("Ravie", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CounterTextBox.ForeColor = System.Drawing.SystemColors.Window;
-            this.CounterTextBox.Location = new System.Drawing.Point(852, 241);
+            this.CounterTextBox.Location = new System.Drawing.Point(857, 241);
             this.CounterTextBox.Multiline = true;
             this.CounterTextBox.Name = "CounterTextBox";
             this.CounterTextBox.ReadOnly = true;
@@ -764,12 +779,14 @@
             // 
             // FillOpponentPlace
             // 
+            this.FillOpponentPlace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.FillOpponentPlace.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.FillOpponentPlace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.FillOpponentPlace.Enabled = false;
             this.FillOpponentPlace.Font = new System.Drawing.Font("Ravie", 7F);
-            this.FillOpponentPlace.Location = new System.Drawing.Point(13, 546);
+            this.FillOpponentPlace.Location = new System.Drawing.Point(16, 546);
             this.FillOpponentPlace.Name = "FillOpponentPlace";
-            this.FillOpponentPlace.Size = new System.Drawing.Size(117, 70);
+            this.FillOpponentPlace.Size = new System.Drawing.Size(112, 70);
             this.FillOpponentPlace.TabIndex = 60;
             this.FillOpponentPlace.Text = "Fill opponent`s place";
             this.FillOpponentPlace.UseVisualStyleBackColor = false;
@@ -777,10 +794,11 @@
             // 
             // CommentsLabel
             // 
+            this.CommentsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CommentsLabel.BackColor = System.Drawing.SystemColors.Control;
             this.CommentsLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CommentsLabel.Font = new System.Drawing.Font("Ravie", 15F);
-            this.CommentsLabel.Location = new System.Drawing.Point(852, 27);
+            this.CommentsLabel.Location = new System.Drawing.Point(857, 27);
             this.CommentsLabel.Name = "CommentsLabel";
             this.CommentsLabel.Size = new System.Drawing.Size(347, 44);
             this.CommentsLabel.TabIndex = 59;
@@ -789,11 +807,12 @@
             // 
             // LiveText
             // 
+            this.LiveText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.LiveText.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LiveText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.LiveText.Font = new System.Drawing.Font("NSimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LiveText.ForeColor = System.Drawing.Color.White;
-            this.LiveText.Location = new System.Drawing.Point(862, 74);
+            this.LiveText.Location = new System.Drawing.Point(867, 74);
             this.LiveText.Multiline = true;
             this.LiveText.Name = "LiveText";
             this.LiveText.ReadOnly = true;
@@ -810,6 +829,7 @@
             // 
             // Locations
             // 
+            this.Locations.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Locations.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Locations.FormattingEnabled = true;
             this.Locations.ItemHeight = 19;
@@ -923,6 +943,7 @@
             // 
             // OKButton
             // 
+            this.OKButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.OKButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.OKButton.Font = new System.Drawing.Font("Ravie", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OKButton.Location = new System.Drawing.Point(671, 428);
@@ -936,6 +957,7 @@
             // 
             // label244
             // 
+            this.label244.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label244.AutoSize = true;
             this.label244.BackColor = System.Drawing.SystemColors.Control;
             this.label244.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -949,6 +971,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox1.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 19;
@@ -966,6 +989,7 @@
             // 
             // label243
             // 
+            this.label243.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label243.AutoSize = true;
             this.label243.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label243.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -980,6 +1004,7 @@
             // 
             // checkBoxY
             // 
+            this.checkBoxY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxY.AutoSize = true;
             this.checkBoxY.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.checkBoxY.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -994,6 +1019,7 @@
             // 
             // checkBoxX
             // 
+            this.checkBoxX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxX.AutoSize = true;
             this.checkBoxX.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.checkBoxX.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1008,11 +1034,12 @@
             // 
             // FillButton
             // 
+            this.FillButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.FillButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.FillButton.Font = new System.Drawing.Font("Ravie", 8F);
-            this.FillButton.Location = new System.Drawing.Point(13, 453);
+            this.FillButton.Location = new System.Drawing.Point(16, 453);
             this.FillButton.Name = "FillButton";
-            this.FillButton.Size = new System.Drawing.Size(119, 87);
+            this.FillButton.Size = new System.Drawing.Size(112, 87);
             this.FillButton.TabIndex = 44;
             this.FillButton.Text = "Add ship to my Place";
             this.FillButton.UseVisualStyleBackColor = false;
@@ -3351,8 +3378,6 @@
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(338, 344);
             this.panel41.TabIndex = 5;
-            this.panel41.MouseLeave += new System.EventHandler(this.Panel41_MouseLeave);
-            this.panel41.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Panel41_MouseMove);
             // 
             // label148
             // 
@@ -3386,6 +3411,7 @@
             this.label146.Size = new System.Drawing.Size(32, 34);
             this.label146.TabIndex = 19;
             this.label146.Text = "8";
+            this.label146.Click += new System.EventHandler(this.Label146_Click);
             // 
             // label145
             // 
@@ -3574,7 +3600,6 @@
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(27, 28);
             this.A1.TabIndex = 0;
-            this.A1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             this.A1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseClick);
             this.A1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseDown);
             this.A1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Panel1_MouseUp);
@@ -5782,9 +5807,10 @@
             // 
             // StartButton
             // 
+            this.StartButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.StartButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.StartButton.Font = new System.Drawing.Font("Ravie", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartButton.Location = new System.Drawing.Point(791, 428);
+            this.StartButton.Location = new System.Drawing.Point(796, 428);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(141, 50);
             this.StartButton.TabIndex = 69;
@@ -5795,8 +5821,9 @@
             // 
             // ImputedLoc
             // 
+            this.ImputedLoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ImputedLoc.Font = new System.Drawing.Font("Ravie", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ImputedLoc.Location = new System.Drawing.Point(914, 551);
+            this.ImputedLoc.Location = new System.Drawing.Point(919, 551);
             this.ImputedLoc.Multiline = true;
             this.ImputedLoc.Name = "ImputedLoc";
             this.ImputedLoc.Size = new System.Drawing.Size(100, 49);
@@ -5806,9 +5833,10 @@
             // 
             // InputLabel
             // 
+            this.InputLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.InputLabel.AutoSize = true;
             this.InputLabel.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InputLabel.Location = new System.Drawing.Point(812, 521);
+            this.InputLabel.Location = new System.Drawing.Point(817, 521);
             this.InputLabel.Name = "InputLabel";
             this.InputLabel.Size = new System.Drawing.Size(328, 19);
             this.InputLabel.TabIndex = 71;
@@ -5817,9 +5845,10 @@
             // 
             // ShotButton
             // 
+            this.ShotButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.ShotButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ShotButton.Font = new System.Drawing.Font("Ravie", 20F);
-            this.ShotButton.Location = new System.Drawing.Point(816, 606);
+            this.ShotButton.Location = new System.Drawing.Point(821, 606);
             this.ShotButton.Name = "ShotButton";
             this.ShotButton.Size = new System.Drawing.Size(297, 61);
             this.ShotButton.TabIndex = 72;
@@ -5830,10 +5859,11 @@
             // 
             // OpponentSshot
             // 
+            this.OpponentSshot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.OpponentSshot.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.OpponentSshot.Enabled = false;
             this.OpponentSshot.Font = new System.Drawing.Font("Ravie", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OpponentSshot.Location = new System.Drawing.Point(816, 667);
+            this.OpponentSshot.Location = new System.Drawing.Point(821, 667);
             this.OpponentSshot.Name = "OpponentSshot";
             this.OpponentSshot.Size = new System.Drawing.Size(297, 61);
             this.OpponentSshot.TabIndex = 73;
@@ -5844,9 +5874,10 @@
             // 
             // label247
             // 
+            this.label247.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label247.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label247.Font = new System.Drawing.Font("Ravie", 6F);
-            this.label247.Location = new System.Drawing.Point(1020, 551);
+            this.label247.Location = new System.Drawing.Point(1025, 551);
             this.label247.Name = "label247";
             this.label247.Size = new System.Drawing.Size(100, 49);
             this.label247.TabIndex = 74;
@@ -5854,19 +5885,121 @@
             this.label247.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label247.Visible = false;
             // 
+            // ShowMyShipsButton
+            // 
+            this.ShowMyShipsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ShowMyShipsButton.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ShowMyShipsButton.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowMyShipsButton.Location = new System.Drawing.Point(13, 622);
+            this.ShowMyShipsButton.Name = "ShowMyShipsButton";
+            this.ShowMyShipsButton.Size = new System.Drawing.Size(115, 59);
+            this.ShowMyShipsButton.TabIndex = 76;
+            this.ShowMyShipsButton.Text = "Show Ships";
+            this.ShowMyShipsButton.UseVisualStyleBackColor = false;
+            this.ShowMyShipsButton.Click += new System.EventHandler(this.ShowMyShipsButton_Click);
+            // 
             // label248
             // 
-            this.label248.Font = new System.Drawing.Font("Ravie", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label248.Location = new System.Drawing.Point(131, 606);
+            this.label248.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label248.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label248.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label248.Location = new System.Drawing.Point(137, 658);
             this.label248.Name = "label248";
-            this.label248.Size = new System.Drawing.Size(441, 125);
+            this.label248.Size = new System.Drawing.Size(197, 77);
             this.label248.TabIndex = 75;
+            // 
+            // PasswordTextBox
+            // 
+            this.PasswordTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(12, 706);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.PasswordChar = '*';
+            this.PasswordTextBox.Size = new System.Drawing.Size(115, 22);
+            this.PasswordTextBox.TabIndex = 77;
+            this.PasswordTextBox.Visible = false;
+            // 
+            // PasswordLabel
+            // 
+            this.PasswordLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(29, 686);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(69, 17);
+            this.PasswordLabel.TabIndex = 78;
+            this.PasswordLabel.Text = "Password";
+            this.PasswordLabel.Visible = false;
+            // 
+            // SetPasswordTExtBox
+            // 
+            this.SetPasswordTExtBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SetPasswordTExtBox.Enabled = false;
+            this.SetPasswordTExtBox.Location = new System.Drawing.Point(134, 578);
+            this.SetPasswordTExtBox.MaxLength = 10;
+            this.SetPasswordTExtBox.Name = "SetPasswordTExtBox";
+            this.SetPasswordTExtBox.PasswordChar = '*';
+            this.SetPasswordTExtBox.Size = new System.Drawing.Size(183, 22);
+            this.SetPasswordTExtBox.TabIndex = 79;
+            // 
+            // SetPasswordLabel
+            // 
+            this.SetPasswordLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SetPasswordLabel.AutoSize = true;
+            this.SetPasswordLabel.Location = new System.Drawing.Point(180, 558);
+            this.SetPasswordLabel.Name = "SetPasswordLabel";
+            this.SetPasswordLabel.Size = new System.Drawing.Size(93, 17);
+            this.SetPasswordLabel.TabIndex = 80;
+            this.SetPasswordLabel.Text = "Set password";
+            // 
+            // FirstPlayerPassword
+            // 
+            this.FirstPlayerPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.FirstPlayerPassword.AutoSize = true;
+            this.FirstPlayerPassword.Location = new System.Drawing.Point(147, 607);
+            this.FirstPlayerPassword.Name = "FirstPlayerPassword";
+            this.FirstPlayerPassword.Size = new System.Drawing.Size(60, 21);
+            this.FirstPlayerPassword.TabIndex = 81;
+            this.FirstPlayerPassword.Text = "Your";
+            this.FirstPlayerPassword.UseVisualStyleBackColor = true;
+            this.FirstPlayerPassword.CheckedChanged += new System.EventHandler(this.FirstPlayerPassword_CheckedChanged);
+            // 
+            // SecondPlayerPassword
+            // 
+            this.SecondPlayerPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SecondPlayerPassword.AutoSize = true;
+            this.SecondPlayerPassword.Location = new System.Drawing.Point(147, 634);
+            this.SecondPlayerPassword.Name = "SecondPlayerPassword";
+            this.SecondPlayerPassword.Size = new System.Drawing.Size(93, 21);
+            this.SecondPlayerPassword.TabIndex = 82;
+            this.SecondPlayerPassword.Text = "Opponent";
+            this.SecondPlayerPassword.UseVisualStyleBackColor = true;
+            this.SecondPlayerPassword.CheckedChanged += new System.EventHandler(this.SecondPlayerPassword_CheckedChanged);
+            // 
+            // SetPasswordButton
+            // 
+            this.SetPasswordButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SetPasswordButton.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SetPasswordButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SetPasswordButton.BackgroundImage")));
+            this.SetPasswordButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SetPasswordButton.Location = new System.Drawing.Point(323, 570);
+            this.SetPasswordButton.Name = "SetPasswordButton";
+            this.SetPasswordButton.Size = new System.Drawing.Size(70, 38);
+            this.SetPasswordButton.TabIndex = 83;
+            this.SetPasswordButton.UseVisualStyleBackColor = false;
+            this.SetPasswordButton.Click += new System.EventHandler(this.SetPasswordButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1215, 740);
+            this.ClientSize = new System.Drawing.Size(1220, 740);
+            this.Controls.Add(this.SetPasswordButton);
+            this.Controls.Add(this.SecondPlayerPassword);
+            this.Controls.Add(this.FirstPlayerPassword);
+            this.Controls.Add(this.SetPasswordLabel);
+            this.Controls.Add(this.SetPasswordTExtBox);
+            this.Controls.Add(this.PasswordLabel);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.ShowMyShipsButton);
             this.Controls.Add(this.label248);
             this.Controls.Add(this.label247);
             this.Controls.Add(this.OpponentSshot);
@@ -5937,6 +6070,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "Form1";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.A11.ResumeLayout(false);
             this.A11.PerformLayout();
             this.B11.ResumeLayout(false);
@@ -6813,7 +6947,15 @@
         private System.Windows.Forms.Button ShotButton;
         private System.Windows.Forms.Button OpponentSshot;
         private System.Windows.Forms.Label label247;
+        private System.Windows.Forms.Button ShowMyShipsButton;
         private System.Windows.Forms.Label label248;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.Label PasswordLabel;
+        private System.Windows.Forms.TextBox SetPasswordTExtBox;
+        private System.Windows.Forms.Label SetPasswordLabel;
+        private System.Windows.Forms.CheckBox FirstPlayerPassword;
+        private System.Windows.Forms.CheckBox SecondPlayerPassword;
+        private System.Windows.Forms.Button SetPasswordButton;
     }
 }
 

@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SetPasswordButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJoAAABMCAYAAACVmK4lAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAABJ0AAASdAHeZh94AAABo0lE
+        QVR4Xu3cQYriUBiFUZfjxDXqVFFX4OocugGHKdLYTUM9KKXMzcvvOXAHZuTgA0kibzVAgNCIEBoRQiNC
+        aEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihESE0IoRGhNCIEBoRQiNCaMWdz+dht9s9Ps1HaIWdTqdh
+        tVr92Xa7fVydh9CKOh6P/yLrITahFXQ4HL5F9ndzxSa0Yvb7fTOw/zdHbEIr5HK5NMNqLR2b0Aq53W7D
+        ZrNphtVaMjahFdNrbEIrqMfYhFZUb7EJrbCeYhNacb3EJrQP0ENsQvsQc8f2cmj3+90Wuuv1OqzX62ZY
+        rb0ztpdDa30hq7t3xSY0+3HviE1o9tR+G5vQ7On9Jjah2dMTmk0+P502+dwM2OR7R2Sjl0NrPQi0ZWxR
+        D2xZpsW9gmJ5vFRncv4mxOR6iWwktKJ6imwktIJ6i2wktGJ6jGwktEJ6jWwktEIciUCMQ16IcWwVMQ7i
+        I8bRosQ4LJmPIjQihEaE0IgQGhFCI0JoRAiNCKERITQihEaE0IgQGhFCI0JoRAiNCKERITQChuELXa0e
+        1KaEPCoAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
