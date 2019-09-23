@@ -1,0 +1,15 @@
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\bin\Debug\TestTasks.exe.config
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\bin\Debug\TestTasks.exe
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\bin\Debug\TestTasks.pdb
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.csprojAssemblyReference.cache
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Form1.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Properties.Resources.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.csproj.GenerateResource.cache
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.exe
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.pdb
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Task1.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Task2.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Task3.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Task4.resources
+C:\Users\Bogda\Documents\TestTaskFolder\TestTasks\TestTasks\obj\Debug\TestTasks.Task5.resources
