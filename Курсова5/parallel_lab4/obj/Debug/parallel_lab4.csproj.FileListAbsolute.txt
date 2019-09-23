@@ -1,0 +1,296 @@
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+c:\users\olya\source\repos\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+F:\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+F:\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+F:\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+F:\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+D:\Навчання\3 курс\Паралельні обчислення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojResolveAssemblyReference.cache
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Dmytro\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.Cache
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojResolveAssemblyReference.cache
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\PMO-31\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.Cache
+C:\Study\PMO-31\1 семестр\Паралельні числення\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Study\PMO-31\1 семестр\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Study\PMO-31\1 семестр\Паралельні числення\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\parallel_lab4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Form1_4.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова1\parallel_lab4\obj\Debug\parallel_lab4.Natali.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Natali.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Natali2.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Natali3.resources
+C:\Users\Bogda\Desktop\Курсова2\parallel_lab4\obj\Debug\parallel_lab4.Natali4.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Natali.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Natali2.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Natali3.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Natali4.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова3\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Natali.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Natali2.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Natali3.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Natali4.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова4\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова5\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова6\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова7\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова8\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_1.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_3.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова9\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова10\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова11\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова123\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe.config
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\bin\Debug\parallel_lab4.pdb
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csprojAssemblyReference.cache
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.ClickDrawForm.resources
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1.resources
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Form1_2.resources
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.Properties.Resources.resources
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.SavePicture.resources
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.GenerateResource.cache
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.exe
+C:\Users\Bogda\Desktop\Курсова2.1\Курсова2.1\Курсова5\parallel_lab4\obj\Debug\parallel_lab4.pdb
